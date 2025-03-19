@@ -1,0 +1,242 @@
+:root {
+    --color1: #294c83;
+    --color2:#365674;
+    --color3: #FED040
+    --color4: #737377;
+    --color5: #fff;
+    --color6:#F6F6F6;
+    --color7:#E5ECF2;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700&display=swap");
+  
+  @import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+  
+  
+  
+  
+  @font-face {
+    font-family: "lato";
+  src: url(../../public/fonts/Lato-Black.ttf);
+  }
+  
+  @font-face {
+      font-family: "lato-regular";
+      src: url(../../public/fonts/Lato-Regular.ttf);
+    }
+    
+  
+  @font-face {
+    font-family: "muli";
+    src: url(../../public/fonts/Muli.ttf);
+  }
+  
+  body {
+    font-family: "muli";
+    font-size: 17px;
+    overflow-x: hidden;
+    color: #353535;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: var(--color1);
+    font-family: "lato";
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  /* h1{
+      color:var(--color1);
+      font-weight:bold;
+      font-family: 'Nunito', sans-serif;
+  } */
+  #header {
+   /*  box-shadow: 0 3px 3px #cacaca; */
+    background: transparent;
+  }
+  
+  #header .barsup {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: var(--color1);
+    padding: 6px 8%;
+  }
+  
+  #header .barsup a {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  #header .barsup a:hover {
+    color: var(--color3);
+  }
+  
+  #header nav.navbar {
+    padding: 14px 4%;
+    background: transparent;
+  }
+  
+  #header a.nav-link {
+    font-weight: bold;
+    font-size: 15.5px;
+    color: white;
+  }
+  
+  #header a.nav-link.active {
+    color: var(--color3);
+  }
+  
+  #header a.dropdown-item {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  
+  #header a.dropdown-item:hover {
+    color: var(--color1);
+  
+  }
+  #footer{
+    border-top: 2px solid var(--color1);
+    background-color: var(--color7);
+  }
+  
+  #footer .barinf {
+    font-size: 14.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 8%;
+    color: white;
+    background-color: var(--color1);
+  }
+  
+  #footer a {
+    color: white;
+  }
+  
+  #logotipo {
+    width: 90%;
+    /*  height: 62px; */
+  }
+  
+  h1.linea,
+  h2.linea {
+    position: relative;
+    z-index: 1;
+  }
+  
+  h1.linea:before,
+  h2.linea:before {
+    border-top: 2px solid black;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 98%;
+    z-index: -1;
+  }
+  
+  h1.linea span,
+  h2.linea span {
+    background: #fff;
+    padding: 0 25px;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  .btn {
+    font-family: "Mulish", sans-serif;
+    padding: 8px 30px;
+    border-radius: 2em;
+    color: white;
+  }
+  
+  .btn-warning:hover {
+    background: var(--color4);
+    color: white;
+  }
+  #imageborder {
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 7px; */
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+  }
+  
+  @media only screen and (max-width: 700px) {
+    #logotipo {
+      height: 50px;
+    }
+  
+    #header .barsup {
+      padding: 4px 3%;
+    }
+  
+    #header nav.navbar {
+      padding: 10px 4%;
+    }
+  
+    #footer .barinf {
+      padding: 6px 3%;
+    }
+  }
+  
+  #pre-load {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    transition: opacity 1s;
+  }
+  
+  #pre-load.fade {
+    opacity: 0;
+  }
+  
+  #circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+  }
+  
+  .loader {
+    width: calc(100% - 0px);
+    height: calc(100% - 0px);
+    border: 4px solid #fff;
+    border-top: 4px solid #f7595a;
+    border-radius: 50%;
+    animation: rotate 3.5s linear infinite;
+  }
+  
+  .loader2 {
+    width: calc(100% - 0px);
+    height: calc(100% - 0px);
+    border: 4px solid #fff;
+    border-top: 4px solid #362f30;
+    border-radius: 50%;
+    animation: rotate 3.5s linear infinite;
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
