@@ -59,6 +59,11 @@
             font-size: 22px;
         }
 
+        #portada {
+            height: 80vh;
+            padding-top: 20rem;
+            padding-bottom: 1rem;
+        }
 
 
         .separador {
@@ -297,8 +302,8 @@
     <div class="container-fluid" id="portada">
         <div class="container">
             <div class="row">
-                <div class="col-12 animate__animated animate__fadeInLeft" >
-                    <h2 class="page_title" >NOTICIAS</h2>
+                <div class="col-12 animate__animated animate__fadeInLeft">
+                    <h2 class="page_title">NOTICIAS</h2>
                     <div class="page_breadcrumb">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
@@ -333,7 +338,7 @@
                                 <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);"> PRIMERA REUNIÓN DE PADRES ROSARINOS</h5>
 
                                 <div class="detalle">
-                                PRIMERA REUNIÓN DE PADRES ROSARINOS
+                                    PRIMERA REUNIÓN DE PADRES ROSARINOS
                                 </div>
 
                             </div>
@@ -360,7 +365,7 @@
 
                                 <div class="detalle">
 
-                                FIESTA DE BIENVENIDA - NIVEL INICIAL
+                                    FIESTA DE BIENVENIDA - NIVEL INICIAL
                                 </div>
 
                             </div>

@@ -58,8 +58,11 @@
             color: #fff;
             font-size: 22px;
         }
-
-
+        #portada {
+            height: 80vh;
+            padding-top: 20rem;
+            padding-bottom: 1rem;
+        }
 
         .separador {
             background-color: var(--color1);
@@ -332,9 +335,9 @@
 
                                 <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">COMUNICADO N° 003</h5>
 
-                                <div class="detalle">
+                                <!-- <div class="detalle">
                                 COMUNICADO N° 003
-                                </div>
+                                </div> -->
 
                             </div>
 

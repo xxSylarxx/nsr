@@ -96,6 +96,11 @@
             color: #fff;
             font-size: 22px;
         }
+        #portada {
+            height: 80vh;
+            padding-top: 20rem;
+            padding-bottom: 1rem;
+        }
 
         /* Estilos contenido bienvenido */
 

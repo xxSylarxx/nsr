@@ -40,8 +40,13 @@
                 url('./public/img/galeria/pi-nosotros.jpg');
             background-size: cover;
             background-position: center 30%;
-            height: 100%;
+            height: 100%; 
             padding: 550px 0 10px;
+        }
+        #portada {
+            height: 60vh;
+            padding-top: 15rem;
+            padding-bottom: 1rem;
         }
 
         #portada .page_title {

@@ -71,7 +71,7 @@
         /* portada */
         #portada {
             background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-                url('./public/img/web/p-inicial.jpg');
+                url('./public/img/banner/secundaria1.jpg');
             background-size: cover;
             background-position: center;
             height: 100%;
@@ -96,6 +96,12 @@
             color: #fff;
             font-size: 22px;
         }
+        #portada {
+            height: 80vh;
+            padding-top: 20rem;
+            padding-bottom: 1rem;
+        }
+
 
         /* Estilos contenido bienvenido */
 

@@ -26,10 +26,15 @@
     <?php include_once 'includes/header.php'; ?>
 
 
-   
+
     <!-- ventana emergente admin -->
 
     <style>
+        .scroll {
+            overflow-y: auto;
+            height: 320px;
+        }
+
         /* Estilos de Alianza */
         #alianzas {
             padding-bottom: 6rem;
@@ -617,7 +622,7 @@
                 </div>
                 <div class="carousel-item" data-bs-interval="12000">
                     <div style="position:relative;">
-                        <img src="./public/img/banner/secundaria1.jpg" class="d-block w-100" alt="...">
+                        <img src="./public/img/web/p-inicial.jpg" class="d-block w-100" alt="...">
                         <div class="text-banner">
                             <span id="banner-titulo">SANA CONVIVENCIA</span>
                             <br>
@@ -645,7 +650,7 @@
 
     <section id="bienvenida" class="container-fluid" style="padding-left: 8%;padding-right: 8%;">
         <div class="row justify-content-between">
-            <div class="col-lg-6 my-2">
+            <div class="col-lg-6 my-2 scroll">
                 <h1 class="mb-3">¿POR QUÉ ELEGIR NUESTRA
                     PROPUESTA PEDAGÓGICA?</h1>
                 <p style="line-height: 2; text-align: justify;">
@@ -670,10 +675,10 @@
                     sus maestros y compañeros que permitirán una permanencia inolvidable. </p>
                 <p style="line-height: 2; text-align: justify;">Brindamos inglés semi intensivo con certificacón internacional University Cambridge </p>
 
-                <div class="text-center boton1">
+                <!-- <div class="text-center boton1"> -->
                     <!--  <button id="boton" class="btn text-white fw-bold px-4" onclick="location.href = 'nosotros'">Ver más</button> -->
-                    <a href="#" class="boton">Conoce Más</a>
-                </div>
+                    <!-- <a href="#" class="boton">Conoce Más</a>
+                </div> -->
             </div>
             <div class="col-lg-6 my-auto">
                 <center><img id="imageborder" src="./public/img/web/circulo_nsr.png" class="img-fluid" width="80%" alt=""></center>
@@ -682,7 +687,7 @@
     </section>
     <section id="videoinstitucional">
         <div class="container-fluid" style="padding-left: 5%;padding-right: 5%;">
-            <div class="row">
+            <div class="row ">
                 <div class="col-lg-7 my-auto">
                     <div class="mx-3 pb-4">
                         <h2>CONOCE MAS SOBRE NOSOTROS</h2>
@@ -1119,7 +1124,7 @@
                                 <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);"> PRIMERA REUNIÓN DE PADRES ROSARINOS</h5>
 
                                 <div class="detalle">
-                                PRIMERA REUNIÓN DE PADRES ROSARINOS
+                                    PRIMERA REUNIÓN DE PADRES ROSARINOS
                                 </div>
 
                             </div>
@@ -1146,7 +1151,7 @@
 
                                 <div class="detalle">
 
-                                FIESTA DE BIENVENIDA - NIVEL INICIAL
+                                    FIESTA DE BIENVENIDA - NIVEL INICIAL
                                 </div>
 
                             </div>

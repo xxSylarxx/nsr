@@ -78,11 +78,6 @@
     color: var(--color3);
   }
   
-  #header nav.navbar {
-    padding: 14px 4%;
-    background: transparent;
-  }
-  
   #header a.nav-link {
     font-weight: bold;
     font-size: 15.5px;
@@ -102,6 +97,7 @@
     color: var(--color1);
   
   }
+  
   #footer{
     border-top: 2px solid var(--color1);
     background-color: var(--color7);

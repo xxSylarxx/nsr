@@ -58,7 +58,11 @@
             color: #fff;
             font-size: 22px;
         }
-
+        #portada {
+            height: 80vh;
+            padding-top: 20rem;
+            padding-bottom: 1rem;
+        }
 
 
         .separador {
@@ -332,9 +336,9 @@
 
                                 <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">HORARIO DE ATENCIÓN PP.FF.</h5>
 
-                                <div class="detalle">
-                                HORARIO DE ATENCIÓN PP.FF.
-                                </div>
+                                    <!-- <div class="detalle">
+                                    HORARIO DE ATENCIÓN PP.FF.
+                                    </div> -->
 
                             </div>
 

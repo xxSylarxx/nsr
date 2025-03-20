@@ -68,6 +68,12 @@
             color: #fff;
             font-size: 22px;
         }
+        #portada {
+            height: 60vh;
+            padding-top: 15rem;
+            padding-bottom: 1rem;
+        }
+
 
 
         #infraestructura {
@@ -180,7 +186,7 @@
                         <p><b>Un espacio donde la magia comienza: Nivel Inicial.</b> Nuestras instalaciones de 1200m² están diseñadas exclusivamente para los más pequeños, ofreciendo un entorno seguro y estimulante para su desarrollo integral. Contamos con un amplio patio al aire libre, perfecto para juegos y exploración, y un luminoso salón de clases donde la creatividad no tiene límites. La sala de psicomotricidad, equipada con materiales didácticos, fomenta el movimiento y la coordinación. Además, el área de juegos, con toboganes y columpios, garantiza diversión y aprendizaje en cada momento. En nuestro nivel inicial, cada día es una nueva aventura llena de descubrimientos y sonrisas.</p>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 my-auto">
                     <div class="mx-5">
                         <div class="sedes_content_slider owl-carousel owl-theme">
                             <div class="sedes_slider">
@@ -198,7 +204,7 @@
             <br>
 
             <div class="row py-5">
-                <div class="col-lg-6">
+                <div class="col-lg-6 my-auto">
                     <div class="mx-5">
                         <div class="sedes_content_slider owl-carousel owl-theme">
                             <div class="sedes_slider">
@@ -234,7 +240,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 my-auto">
                     <div class="mx-5">
                         <div class="sedes_content_slider owl-carousel owl-theme">
                             <div class="sedes_slider">

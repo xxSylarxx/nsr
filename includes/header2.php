@@ -50,6 +50,7 @@ switch ($pagina) {
     .nav-item>.nav-link {
         color: var(--color1) !important;
     }
+    
 
     @media only screen and (max-width: 450px) {
 

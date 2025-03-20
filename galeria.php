@@ -185,10 +185,8 @@
             </div>
         </div>
     </div> -->
-    <br>
-    <br>
     <section id="galeria">
-        <div class="container py-5">
+        <div class="container py-2">
             <div class="row">
                 <div class="col-lg-12">
                     <h2>GALERÍA DE IMAGENES</h2>
