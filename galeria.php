@@ -197,9 +197,9 @@
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-4">
                     <div style="position:relative;">
-                        <img src="./public/img/galeria/portada.jpg" alt="">
+                        <img src="./public/img/galeria/portada_vocacional.jpg" alt="">
                         <div class="div-boton3" style="position:absolute;bottom:6%;left:50%;transform: translate(-50%, -50%);">
-                            <a href="./galeria3.php" class="boton3">CLASES DE VERANO</a>
+                            <a href="./galeria3.php" class="boton3">FERIA VOCACIONAL</a>
                         </div>
                     </div>
                 </div>
@@ -213,9 +213,9 @@
                 </div>
                 <div class="col-lg-4">
                     <div style="position:relative;">
-                        <img src="./public/img/galeria/portada_vocacional.jpg" alt="">
+                        <img src="./public/img/galeria/portada.jpg" alt="">
                         <div style="position:absolute;bottom:6%;left:50%;transform: translate(-50%, -50%);">
-                            <a href="./galeria1.php" class="boton3">FERIA VOCACIONAL</a>
+                            <a href="./galeria1.php" class="boton3">CLASES DE VERANO</a>
                         </div>
                     </div>
                 </div>
