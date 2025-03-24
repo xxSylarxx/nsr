@@ -43,7 +43,7 @@
     <style>
         #portada {
             background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-                url('./public/img/web/ss.png');
+                url('./public/img/web/banner_infra.jpg');
             background-size: cover;
             background-position: center 30%;
             height: 100%;
@@ -69,8 +69,8 @@
             font-size: 22px;
         }
         #portada {
-            height: 60vh;
-            padding-top: 15rem;
+            height: 80vh;
+            padding-top: 25rem;
             padding-bottom: 1rem;
         }
 
@@ -94,7 +94,7 @@
 
         @media only screen and (max-width: 650px) {
             #portada {
-                background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .6)), url("./public/img/galeria/pi-inicial.jpg");
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .6)), url("./public/img/web/banner_infra.jpg");
                 /* background-image: url("./public/img/portada-all-1.png"); */
                 background-size: 150%;
                 /*   background-position: center; */

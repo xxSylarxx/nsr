@@ -44,8 +44,8 @@
             padding: 550px 0 10px;
         }
         #portada {
-            height: 60vh;
-            padding-top: 15rem;
+            height: 80vh;
+            padding-top: 25rem;
             padding-bottom: 1rem;
         }
 

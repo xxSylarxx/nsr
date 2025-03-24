@@ -224,7 +224,7 @@
             <div class="col-lg-3 py-2 px-5">
                 <h4 class="text-start" style="color:var(--color1);">NUESTRO COLEGIO</h4>
                 <div class="d-flex justify-content-start py-2"><i class="fas fa-angle-right" style="color:var(--color2);font-size:1.3rem;"></i><a href="./somos.php" style="color:var(--color1);font-family: 'Raleway', sans-serif;" target="_blank">&nbsp;&nbsp;Quiénes Somos</a></div>
-                <div class="d-flex justify-content-start py-2"><i class="fas fa-angle-right" style="color:var(--color2);font-size:1.3rem;"></i><a href="./historia.php" style="color:var(--color1);font-family: 'Raleway', sans-serif;" target="_blank">&nbsp;&nbsp;Historia</a></div>
+                <div class="d-flex justify-content-start py-2"><i class="fas fa-angle-right" style="color:var(--color2);font-size:1.3rem;"></i><a href="./infraestructura.php" style="color:var(--color1);font-family: 'Raleway', sans-serif;" target="_blank">&nbsp;&nbsp;Infraestructura</a></div>
             </div>
             <div class="col-lg-2 py-2 px-5">
                 <h4 class="text-start" style="color:var(--color1);">NIVELES</h4>
@@ -235,12 +235,12 @@
             </div>
             <div class="col-lg-4 py-2 px-5">
                 <h4 class="text-start" style="color:var(--color1);">CONTÁCTANOS</h4>
-                <div class="d-flex justify-content-start py-1" style="color:var(--color1);font-family: 'Raleway', sans-serif;"><i class="fas fa-location-arrow" style="color:var(--color2);font-size:.8rem;"></i>&nbsp;&nbsp;<p class="text-start" style="margin-top: -5px; margin-bottom:0px;">&nbsp;&nbsp; Av. San Martín 641 - S.J.L., Lima - Perú</p>
-                </div>
-                <div class="d-flex justify-content-start py-1" style="color:var(--color1);font-family: 'Raleway', sans-serif;"><i class="fab fa-whatsapp my-auto" style="color:var(--color2);font-size:1.4rem;"></i>&nbsp;&nbsp;972 329 195</div>
-                <div class="d-flex justify-content-start py-1" style="color:var(--color1);font-family: 'Raleway', sans-serif;"><i class="fab fa-whatsapp my-auto" style="color:var(--color2);font-size:1.4rem;"></i>&nbsp;&nbsp;940 164 151</div>
-                <div class="d-flex justify-content-start py-1" style="color:var(--color1);font-family: 'Raleway', sans-serif;"><i class="fab fa-whatsapp my-auto" style="color:var(--color2);font-size:1.4rem;"></i>&nbsp;&nbsp;961 821 503</div>
-                
+                <a href="https://www.google.com/maps/place/Av.+San+Mart%C3%ADn+641,+Lima+15434/" target="_blank"><div class="d-flex justify-content-start py-1" style="color:var(--color1);font-family: 'Raleway', sans-serif;"><i class="fas fa-location-arrow" style="color:var(--color2);font-size:.8rem;"></i>&nbsp;&nbsp;<p class="text-start" style="margin-top: -5px; margin-bottom:0px;">&nbsp;&nbsp; Av. San Martín 641 - S.J.L., Lima - Perú</p>
+                </div></a>
+               <a href="https://api.whatsapp.com/send?phone=972329195" target="_blank"><div class="d-flex justify-content-start py-1"   style="color:var(--color1);font-family: 'Raleway', sans-serif;"><i class="fab fa-whatsapp my-auto" style="color:var(--color2);font-size:1.4rem;"></i>&nbsp;&nbsp;972 329 195</div></a>
+               <a href="https://api.whatsapp.com/send?phone=940164151" target="_blank"><div class="d-flex justify-content-start py-1" style="color:var(--color1);font-family: 'Raleway', sans-serif;"><i class="fab fa-whatsapp my-auto" style="color:var(--color2);font-size:1.4rem;"></i>&nbsp;&nbsp;940 164 151</div></a>
+               <a href="https://api.whatsapp.com/send?phone=961821503" target="_blank"><div class="d-flex justify-content-start py-1" style="color:var(--color1);font-family: 'Raleway', sans-serif;"><i class="fab fa-whatsapp my-auto" style="color:var(--color2);font-size:1.4rem;"></i>&nbsp;&nbsp;961 821 503</div></a>
+            
                 <!-- <div class="d-flex justify-content-start py-1"><i class="fas fa-envelope my-auto" style="color:var(--color2);font-size:.8rem;"></i><a href="mailto:berkeleyschooladmissions@berkeley.edu.pe" style="color:var(--color1);font-family: 'Raleway', sans-serif;word-wrap: break-word;">&nbsp;&nbsp;berkeleyschooladmissions@berkeley.edu.pe</a></div> -->
                <!--  <div class="d-flex justify-content-start py-1"><i class="fas fa-briefcase my-auto" style="color:var(--color2);font-size:.8rem;"></i><a href="./trabaja-con-nosotros.php" style="color:var(--color1);font-family: 'Raleway', sans-serif;">&nbsp;&nbsp;Trabaja con Nosotros</a></div> -->
             </div>

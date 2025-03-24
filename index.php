@@ -387,7 +387,7 @@
         }
 
         #noticias {
-            padding-top: 5rem;
+            padding-top: 3rem;
             padding-bottom: 5rem;
         }
 
@@ -681,7 +681,7 @@
                 </div> -->
             </div>
             <div class="col-lg-6 my-auto">
-                <center><img id="imageborder" src="./public/img/web/circulo_nsr.png" class="img-fluid" width="80%" alt=""></center>
+                <center><img id="imageborder" src="./public/img/web/circulo_nsr.png" class="img-fluid" width="60%" alt=""></center>
             </div>
         </div>
     </section>
@@ -913,9 +913,9 @@
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-4">
                     <div style="position:relative;">
-                        <img src="./public/img/galeria/portada.jpg" alt="">
+                    <img src="./public/img/galeria/portada_vocacional.jpg" alt="">
                         <div class="div-boton3" style="position:absolute;bottom:6%;left:50%;transform: translate(-50%, -50%);">
-                            <a href="./galeria3.php" class="boton3">CLASES DE VERANO</a>
+                            <a href="./galeria3.php" class="boton3">FERIA VOCACIONAL</a>
                         </div>
                     </div>
                 </div>
@@ -929,9 +929,9 @@
                 </div>
                 <div class="col-lg-4">
                     <div style="position:relative;">
-                        <img src="./public/img/galeria/portada_vocacional.jpg" alt="">
+                        <img src="./public/img/galeria/portada.jpg" alt="">
                         <div style="position:absolute;bottom:6%;left:50%;transform: translate(-50%, -50%);">
-                            <a href="./galeria1.php" class="boton3">FERIA VOCACIONAL</a>
+                            <a href="./galeria1.php" class="boton3">CLASES DE VERANO</a>
                         </div>
                     </div>
                 </div>
@@ -956,7 +956,7 @@
                 <div class="row d-flex justify-content-around">
                     <div class="col-lg-4 py-3">
                         <div id="contenedor-marco">
-                            <center><img src="./public/img/web/card_inicial.jpg" width="95%" alt=""></center>
+                            <center><img src="./public/img/web/index_inicial.jpg" width="95%" alt=""></center>
                             <div id="marco"></div>
                             <div id="text-marco">
                                 <span style="color:var(--color5);">INICIAL</span>
@@ -1123,9 +1123,9 @@
 
                                 <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);"> PRIMERA REUNIÓN DE PADRES ROSARINOS</h5>
 
-                                <div class="detalle">
+                                <!-- <div class="detalle">
                                     PRIMERA REUNIÓN DE PADRES ROSARINOS
-                                </div>
+                                </div> -->
 
                             </div>
 
@@ -1149,10 +1149,10 @@
 
                                 <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);"> FIESTA DE BIENVENIDA - NIVEL INICIAL</h5>
 
-                                <div class="detalle">
+                                <!-- <div class="detalle">
 
                                     FIESTA DE BIENVENIDA - NIVEL INICIAL
-                                </div>
+                                </div> -->
 
                             </div>
 
@@ -1176,9 +1176,9 @@
 
                                 <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">¡ADMISIÓN 2025!</h5>
 
-                                <div class="detalle">
+                                <!-- <div class="detalle">
                                     ¡ADMISIÓN 2025!
-                                </div>
+                                </div> -->
 
                             </div>
 

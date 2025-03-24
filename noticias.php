@@ -61,7 +61,7 @@
 
         #portada {
             height: 80vh;
-            padding-top: 20rem;
+            padding-top: 25rem;
             padding-bottom: 1rem;
         }
 
@@ -75,8 +75,8 @@
 
         /* seccion publicaciones */
         #noticias {
-            padding-top: 5rem;
-            padding-bottom: 5rem;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
         }
 
         #noticias h2 {
@@ -337,9 +337,9 @@
 
                                 <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);"> PRIMERA REUNIÓN DE PADRES ROSARINOS</h5>
 
-                                <div class="detalle">
+                                <!-- <div class="detalle">
                                     PRIMERA REUNIÓN DE PADRES ROSARINOS
-                                </div>
+                                </div> -->
 
                             </div>
 
@@ -363,10 +363,10 @@
 
                                 <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);"> FIESTA DE BIENVENIDA - NIVEL INICIAL</h5>
 
-                                <div class="detalle">
+                                <!-- <div class="detalle">
 
                                     FIESTA DE BIENVENIDA - NIVEL INICIAL
-                                </div>
+                                </div> -->
 
                             </div>
 
@@ -390,9 +390,9 @@
 
                                 <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">¡ADMISIÓN 2025!</h5>
 
-                                <div class="detalle">
+                                <!-- <div class="detalle">
                                     ¡ADMISIÓN 2025!
-                                </div>
+                                </div> -->
 
                             </div>
 

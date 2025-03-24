@@ -12,10 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./public/css/bootstrap.min.css">
     <link rel="stylesheet" href="./public/css/web.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./public/js/popper.min.js"></script>
     <script src="./public/js/bootstrap.min.js"></script>
     <script src="./public/js/jquery.min.js"></script>
@@ -96,9 +97,10 @@
             color: #fff;
             font-size: 22px;
         }
+
         #portada {
             height: 80vh;
-            padding-top: 20rem;
+            padding-top: 25rem;
             padding-bottom: 1rem;
         }
 
@@ -899,7 +901,7 @@
         </div>
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
                     <div class="row d-flex justify-content-center py-3">
                         <div class="col-lg-2 mx-4">
                             <center>
@@ -925,7 +927,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
                     <div class="row d-flex justify-content-center py-3">
                         <div class="col-lg-2 mx-4">
                             <center>
@@ -967,7 +969,7 @@
     <section id="cursos">
         <div class="container-fluid" style="margin-top: -60px;">
             <div class="row mx-0 d-flex justify-content-center">
-           <!--      <h4 style="text-align: center; color:var(--color1);">Se brinda compendios académicos de trabajo de las áreas curriculares en forma gratuita.<br> Talleres gratuitos: computación, karate, danza.
+                <!--      <h4 style="text-align: center; color:var(--color1);">Se brinda compendios académicos de trabajo de las áreas curriculares en forma gratuita.<br> Talleres gratuitos: computación, karate, danza.
 
                 </h4> -->
                 <br>
@@ -983,7 +985,7 @@
                                 </div>
                                 <div class="col-lg-7 my-auto">
                                     <h4 style="color:var(--color5);">Matemática</h4>
-                                  <!--   <p>Resuelve problemas de cantidad, forma, movimiento, equivalencia y de gestión de datos.
+                                    <!--   <p>Resuelve problemas de cantidad, forma, movimiento, equivalencia y de gestión de datos.
                                         Logra superar los ejercicios con diferentes niveles de complejidad.
                                     </p> -->
                                 </div>
@@ -1000,7 +1002,7 @@
                                 </div>
                                 <div class="col-lg-7 my-auto">
                                     <h4 style="color:var(--color1);">Comunicación</h4>
-                                   <!--  <p style="color: var(--color1);">Comprende y construye texto, con ello mejora su comunicación
+                                    <!--  <p style="color: var(--color1);">Comprende y construye texto, con ello mejora su comunicación
                                         para interactuar con otras personas. Conoce la evolución del lenguaje y la interpreta; así mismo, aprende y aplica las normas ortográficas.</p> -->
                                 </div>
                             </div>
@@ -1016,7 +1018,7 @@
                                 </div>
                                 <div class="col-lg-7 my-auto">
                                     <h4 style="color:var(--color5);">Personal Social</h4>
-                                   <!--  <p>Conoce la historia de nuestro país desde tiempos remotos hasta la consolidación de la
+                                    <!--  <p>Conoce la historia de nuestro país desde tiempos remotos hasta la consolidación de la
                                         república, generando la construcción de su propia identidad y el desarrollo de su autonomía. Reconoce la diversidad geográfica y sus características.</p> -->
                                 </div>
                             </div>
@@ -1032,7 +1034,7 @@
                                 </div>
                                 <div class="col-lg-7 my-auto">
                                     <h4 style="color: var(--color1);">Ciencia y Tecnología</h4>
-                                   <!--  <p style="color: var(--color1);">Contribuye al cuidado de los ecosistemas desde su conocimiento y
+                                    <!--  <p style="color: var(--color1);">Contribuye al cuidado de los ecosistemas desde su conocimiento y
                                         comprensión de la ciencia. Reconoce que la tecnología permite el desarrollo de la humanidad.</p> -->
                                 </div>
                             </div>
@@ -1048,7 +1050,7 @@
                                 </div>
                                 <div class="col-lg-7 my-auto">
                                     <h4 style="color:var(--color5);">Educación Física</h4>
-                                   <!--  <p>Desarrolla una conciencia crítica hacia el cuidado de su salud y la de los demás. Es autónomo y capaz de asumir sus propias decisiones para mejorar su calidad de vida.</p> -->
+                                    <!--  <p>Desarrolla una conciencia crítica hacia el cuidado de su salud y la de los demás. Es autónomo y capaz de asumir sus propias decisiones para mejorar su calidad de vida.</p> -->
                                 </div>
                             </div>
                         </div>
@@ -1063,7 +1065,7 @@
                                 </div>
                                 <div class="col-lg-7 my-auto">
                                     <h4 style="color:var(--color1);">Inglés</h4>
-                                   <!--  <p style="color:var(--color1);">Comprende y produce textos orales y escritos en inglés. Esta es una lengua extranjera importante, ya que permite acceder a los últimos avances tecnológicos, así como estar conectado con el mundo.</p> -->
+                                    <!--  <p style="color:var(--color1);">Comprende y produce textos orales y escritos en inglés. Esta es una lengua extranjera importante, ya que permite acceder a los últimos avances tecnológicos, así como estar conectado con el mundo.</p> -->
                                 </div>
                             </div>
                         </div>
@@ -1078,7 +1080,7 @@
                                 </div>
                                 <div class="col-lg-7 my-auto">
                                     <h4 style="color:var(--color5);">Arte y Cultura</h4>
-                                   <!--  <p>Fortalece su autoestima, la valoración y aceptación de los consecuentemente, reconoce que el diálogo intercultural contribuye con la afirmación de las identidades personales y colectivas.</p> -->
+                                    <!--  <p>Fortalece su autoestima, la valoración y aceptación de los consecuentemente, reconoce que el diálogo intercultural contribuye con la afirmación de las identidades personales y colectivas.</p> -->
                                 </div>
                             </div>
                         </div>
@@ -1179,6 +1181,9 @@
 <script type="text/javascript">
     let modal = new bootstrap.Modal(document.getElementById('myModal'), );
     modal.show();
+</script>
+<script>
+  AOS.init();
 </script>
 
 </html>

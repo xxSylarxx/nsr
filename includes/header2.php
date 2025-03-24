@@ -59,6 +59,12 @@ switch ($pagina) {
             border-color: white;
         }
     }
+    @media only screen and (min-width: 900px) and (max-width:1400px) {
+        #opcion-responsive {
+            padding-right: .60em !important;
+            padding-left: .30em !important;
+        }
+    }
 </style>
 <div id="header-top"></div>
 <header class="fixed-top" id="header" style="background-color:var(--color7);box-shadow: 0 3px 3px #cacaca;">
@@ -115,7 +121,7 @@ switch ($pagina) {
                     </ul>
                 </li> -->
                 <li class="nav-item dropdown">
-                    <a class="<?php echo $menu_4 ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a id="opcion-responsive" class="<?php echo $menu_4 ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Niveles <i class="fas fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -125,7 +131,7 @@ switch ($pagina) {
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="<?php echo $menu_5 ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a id="opcion-responsive" class="<?php echo $menu_5 ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Novedades <i class="fas fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -135,13 +141,13 @@ switch ($pagina) {
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="<?php echo $menu_6 ?>" href="./galeria.php">Galería</a>
+                    <a id="opcion-responsive" class="<?php echo $menu_6 ?>" href="./galeria.php">Galería</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="<?php echo $menu_7 ?>" href="./admision.php">Admisión</a>
+                    <a id="opcion-responsive" class="<?php echo $menu_7 ?>" href="./admision.php">Admisión</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="<?php echo $menu_8 ?>" href="./contacto.php">Contacto</a>
+                    <a id="opcion-responsive" class="<?php echo $menu_8 ?>" href="./contacto.php">Contacto</a>
                 </li>
                 <li class="nav-item out-bottom">
                     <div style="background-color:var(--color1);">

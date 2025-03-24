@@ -12,10 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./public/css/bootstrap.min.css">
     <link rel="stylesheet" href="./public/css/web.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./public/js/popper.min.js"></script>
     <script src="./public/js/bootstrap.min.js"></script>
     <script src="./public/js/jquery.min.js"></script>
@@ -71,9 +72,9 @@
         /* portada */
         #portada {
             background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-                url('./public/img/banner/secundaria1.jpg');
+                url('./public/img/web/banner_inicial.jpg');
             background-size: cover;
-            background-position: center;
+            background-position: center 80%;
             height: 100%;
             padding: 550px 0 10px;
         }
@@ -96,9 +97,10 @@
             color: #fff;
             font-size: 22px;
         }
+
         #portada {
             height: 80vh;
-            padding-top: 20rem;
+            padding-top: 25rem;
             padding-bottom: 1rem;
         }
 
@@ -890,7 +892,7 @@
         </div>
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
                     <div class="row d-flex justify-content-center py-3">
                         <div class="col-lg-2 mx-4">
                             <center>
@@ -916,7 +918,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" >
                     <div class="row d-flex justify-content-center py-3">
                         <div class="col-lg-2 mx-4">
                             <center>
@@ -1001,7 +1003,7 @@
                                 </div>
                                 <div class="col-lg-7 my-auto">
                                     <h4 style="color:var(--color5);">Personal Social</h4>
-                                   <!--  <p>Fomenta el amor por nuestra historia,
+                                    <!--  <p>Fomenta el amor por nuestra historia,
                                         creencias y costumbres, así como el valor
                                         por su familia, cultura y país.</p> -->
                                 </div>
@@ -1018,7 +1020,7 @@
                                 </div>
                                 <div class="col-lg-7 my-auto">
                                     <h4 style="color: var(--color1);">Ciencia y Tecnología</h4>
-                                  <!--   <p style="color: var(--color1);">Desarrolla la conciencia sobre el
+                                    <!--   <p style="color: var(--color1);">Desarrolla la conciencia sobre el
                                         cuidado de su propio cuerpo y promueve la
                                         preservación de nuestro medio ambiente.</p> -->
                                 </div>
@@ -1035,7 +1037,7 @@
                                 </div>
                                 <div class="col-lg-7 my-auto">
                                     <h4 style="color:white;">Psicomotricidad</h4>
-                                   <!--  <p>Desarrolla la psicomotricidad
+                                    <!--  <p>Desarrolla la psicomotricidad
                                         asi como su capacidad para expresarse
                                         y relacionarse en el mundo que lo envuelve.</p> -->
                                 </div>
@@ -1052,7 +1054,7 @@
                                 </div>
                                 <div class="col-lg-7 my-auto">
                                     <h4 style="color: var(--color1);">Inglés</h4>
-                                   <!--  <p style="color: var(--color1);">Desarrolla la capacidad de comunicarse en inglés de manera efectiva, tanto oral como escrita, a través de la práctica de vocabulario.</p> -->
+                                    <!--  <p style="color: var(--color1);">Desarrolla la capacidad de comunicarse en inglés de manera efectiva, tanto oral como escrita, a través de la práctica de vocabulario.</p> -->
                                 </div>
                             </div>
                         </div>
@@ -1137,6 +1139,9 @@
 <script type="text/javascript">
     let modal = new bootstrap.Modal(document.getElementById('myModal'), );
     modal.show();
+</script>
+<script>
+    AOS.init();
 </script>
 
 </html>

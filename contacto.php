@@ -80,7 +80,7 @@
         }
 
         #content-b .datos {
-            padding: 6rem 4rem 0rem 4rem;
+            padding: 2rem 4rem 0rem 4rem;
         }
 
         #content-b iframe {
@@ -102,7 +102,7 @@
             font-weight: 400;
             line-height: 1.5;
             color: #212529;
-            background-color: #fff;
+            background-color: #9e9e9e2e;
             background-clip: padding-box;
             border-right: 1px solid var(--color3);
             border-bottom: 1px solid var(--color3);
@@ -115,7 +115,7 @@
 
         #input-formulario:focus {
             color: #212529;
-            background-color: #fff;
+            background-color: #9e9e9e2e;
             border-color: var(--color1);
             outline: 0;
 
@@ -133,7 +133,7 @@
             font-weight: 400;
             line-height: 1.5;
             color: #929597;
-            background-color: #fff;
+            background-color: #9e9e9e2e;
             background-image: url('./public/img/icons/abajo-icon.png');
             background-repeat: no-repeat;
             background-position: right .75rem center;
@@ -154,7 +154,7 @@
         .select-form:focus {
 
             color: #212529;
-            background-color: #fff;
+            background-color: #9e9e9e57;
             border-color: var(--color1);
             outline: 0;
             box-shadow: 0 0 0 .25rem rgba(36, 40, 127, 0);

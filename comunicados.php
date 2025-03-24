@@ -60,7 +60,7 @@
         }
         #portada {
             height: 80vh;
-            padding-top: 20rem;
+            padding-top: 25rem;
             padding-bottom: 1rem;
         }
 

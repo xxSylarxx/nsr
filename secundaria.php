@@ -12,10 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./public/css/bootstrap.min.css">
     <link rel="stylesheet" href="./public/css/web.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./public/js/popper.min.js"></script>
     <script src="./public/js/bootstrap.min.js"></script>
     <script src="./public/js/jquery.min.js"></script>
@@ -96,6 +97,7 @@
             color: #fff;
             font-size: 22px;
         }
+
         #portada {
             height: 80vh;
             padding-top: 25rem;
@@ -879,14 +881,14 @@
                     <h2>Estrategia Metodológica</h2>
                     <br>
                     <p>
-                    Nuestra estrategia metodológica busca fomentar una formación integral a través del desarrollo de la autonomía, la identidad y la sana convivencia. Además, promovemos la participación en organizaciones estudiantiles, la investigación y el emprendimiento, permitiendo a los estudiantes fortalecer sus habilidades sociales, emocionales y vocacionales para definir su proyecto de vida.
+                        Nuestra estrategia metodológica busca fomentar una formación integral a través del desarrollo de la autonomía, la identidad y la sana convivencia. Además, promovemos la participación en organizaciones estudiantiles, la investigación y el emprendimiento, permitiendo a los estudiantes fortalecer sus habilidades sociales, emocionales y vocacionales para definir su proyecto de vida.
                     </p>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
                     <div class="row d-flex justify-content-center py-3">
                         <div class="col-lg-2 mx-4">
                             <center>
@@ -912,7 +914,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
                     <div class="row d-flex justify-content-center py-3">
                         <div class="col-lg-2 mx-4">
                             <center>
@@ -1181,6 +1183,9 @@
 <script type="text/javascript">
     let modal = new bootstrap.Modal(document.getElementById('myModal'), );
     modal.show();
+</script>
+<script>
+    AOS.init();
 </script>
 
 </html>
