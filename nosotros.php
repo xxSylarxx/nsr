@@ -70,7 +70,7 @@
 
 
         #mision-vision {
-            padding-top: 8rem;
+            padding-top: 5rem;
             padding-bottom: 8rem;
         }
 
@@ -132,23 +132,39 @@
             height: 50px;
 
         }
+        .div-mision-vision{
+            height: 100%;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            background-color: var(--color7);
+        }
 
         @media only screen and (max-width: 650px) {
             #portada {
                 background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .6)), url("./public/img/galeria/pi-inicial.jpg");
                 /* background-image: url("./public/img/portada-all-1.png"); */
-                background-size: 150%;
+                background-size: 100%;
                 /*   background-position: center; */
                 background-repeat: no-repeat;
                 color: white;
-                padding-top: 3rem;
+                padding-top: 8rem;
                 padding-bottom: 2rem;
                 height: 240px;
 
             }
 
-            #portada h1 {
-                font-size: 2.1em;
+            #portada h2 {
+                font-size: 1.5rem!important;
+            }
+            #mision-vision {
+                padding-top: 3rem;
+                padding-bottom:3rem;
+                
+            }
+            .div-mision-vision{
+                
+                margin-left: 0;
+                margin-right: 0;
             }
         }
     </style>
@@ -173,8 +189,8 @@
     <section id="mision-vision">
         <div class="container-fluid" style="padding-left: 7%;padding-right:7%;">
             <div class="row d-flex jusify-content-around">
-                <div id='div-mv1' class="col-lg-6 ">
-                    <div class="h-100 mx-5" style="background-color: var(--color7);">
+                <div id='div-mv1' class="col-lg-6 pt-5">
+                    <div class="div-mision-vision " >
                         <div style="display:flex;justify-content:center;align-items:center;">
                             <img src="./public/img/web/mision.jpg" width="100%" alt="">
                         </div>
@@ -190,8 +206,8 @@
                         </div>
                     </div>
                 </div>
-                <div id='div-mv2' class="col-lg-6">
-                    <div class="h-100 mx-5" style="background-color: var(--color7);">
+                <div id='div-mv2' class="col-lg-6 pt-5">
+                    <div class="div-mision-vision" >
                         <div style="display:flex;justify-content:center;align-items:center;">
                             <img src="./public/img/web/vision.jpg" width="100%" alt="">
                         </div>

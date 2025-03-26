@@ -788,8 +788,36 @@
                 height: auto;
             }
 
+            #portada {
+
+                background-size: 100%;
+                /*   background-position: center; */
+                background-repeat: no-repeat;
+                color: white;
+                padding-top: 8rem;
+                padding-bottom: 2rem;
+                height: 240px;
+
+            }
+
+            #portada h2 {
+                font-size: 1.5rem !important;
+
+            }
+
+            .div-metodologia p {
+                text-align: center !important;
+            }
+
             #cursos img {
-                width: 50%;
+                width: 30%;
+            }
+
+            .card-body h4 {
+                text-align: center;
+            }
+            #metodologia p{
+                text-align: justify;
             }
 
         }
@@ -840,7 +868,7 @@
         </div>
     </div>
     <section id="content-b">
-        <div class="container-fluid p-0">
+        <div class="container-fluid">
 
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-6 px-5 my-auto">
@@ -889,7 +917,7 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
-                    <div class="row d-flex justify-content-center py-3">
+                    <div class=" div-metodologia row d-flex justify-content-center py-3">
                         <div class="col-lg-2 mx-4">
                             <center>
                                 <div class="icon-metodologia">
@@ -901,7 +929,7 @@
                             <p>Formación de la autonomía e identidad.</p>
                         </div>
                     </div>
-                    <div class="row d-flex justify-content-center py-3">
+                    <div class=" div-metodologia row d-flex justify-content-center py-3">
                         <div class="col-lg-2 mx-4">
                             <center>
                                 <div class="icon-metodologia">
@@ -915,7 +943,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
-                    <div class="row d-flex justify-content-center py-3">
+                    <div class=" div-metodologia row d-flex justify-content-center py-3">
                         <div class="col-lg-2 mx-4">
                             <center>
                                 <div class="icon-metodologia">
@@ -929,7 +957,7 @@
                             <p>Promovemos la sana convivencia.</p>
                         </div>
                     </div>
-                    <div class="row d-flex justify-content-center py-3">
+                    <div class=" div-metodologia row d-flex justify-content-center py-3">
                         <div class="col-lg-2 mx-4">
                             <center>
                                 <div class="icon-metodologia">

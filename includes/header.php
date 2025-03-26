@@ -68,7 +68,7 @@ switch ($pagina) {
         color: var(--color3) !important;
     }
 
-    @media only screen and (max-width: 450px) {
+    @media only screen and (max-width: 600px) {
         #header nav.navbar {
             background-color: var(--color7);
         }
@@ -76,6 +76,12 @@ switch ($pagina) {
         .navbar-light .navbar-toggler {
             color: white;
             border-color: white;
+            background-color: var(--color1);
+        }
+
+        .nav-link {
+
+            color: var(--color1)!important;
         }
     }
 
@@ -101,7 +107,12 @@ switch ($pagina) {
     </div> -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand animate__animated animate__zoomIn" href="./">
-            <img src="./public/img/icons/logo2.png" id="logotipo">
+            <?php
+            $logo_src = (isset($_SERVER['HTTP_USER_AGENT']) && preg_match('/Mobile|Android|iP(hone|od|ad)/i', $_SERVER['HTTP_USER_AGENT']))
+                ? './public/img/icons/logo3.png'
+                : './public/img/icons/logo2.png';
+            ?>
+            <img src="<?php echo $logo_src; ?>" id="logotipo">
         </a>
         <button class="navbar-toggler py-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span><i class="fas fa-bars"></i></span>
@@ -141,7 +152,7 @@ switch ($pagina) {
                     </ul>
                 </li> -->
                 <li class="nav-item dropdown">
-                    <a  id="opcion-responsive" class="<?php echo $menu_4 ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a id="opcion-responsive" class="<?php echo $menu_4 ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Niveles <i class="fas fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -171,7 +182,7 @@ switch ($pagina) {
                 </li>
                 <li class="nav-item out-bottom">
                     <div style="background-color:var(--color1);">
-                        <a class="nav-link fw-bold " style="color:var(--color5);" href="https://nsrosario.cubicol.pe/principal/login" target="_blank">Intranet</a>
+                        <a class="nav-link fw-bold " style="color:var(--color5)!important;" href="https://nsrosario.cubicol.pe/principal/login" target="_blank">Intranet</a>
                     </div>
                 </li>
             </ul>
@@ -200,16 +211,25 @@ switch ($pagina) {
         header.classList.toggle("abajo", window.scrollY > 150);
         let logo = document.getElementById("logotipo");
         let navLinks = document.querySelectorAll(".nav-item > .nav-link");
-        if (window.scrollY > 150) {
-            logo.src = "./public/img/icons/logo3.png"; // Nueva imagen
-            navLinks.forEach(link => {
-                link.style.color = "var(--color1)"; // Cambia el color a rojo (ajusta según tu necesidad)
-            });
-        } else {
-            logo.src = "./public/img/icons/logo2.png"; // Imagen original
-            navLinks.forEach(link => {
-                link.style.color = "white";
-            });
+        switch (true) {
+            case (window.scrollY > 150):
+                logo.src = "./public/img/icons/logo3.png";
+                navLinks.forEach(link => {
+                    link.style.color = "var(--color1)";
+                });
+                break;
+            case (window.innerWidth < 700):
+                logo.src = "./public/img/icons/logo3.png";
+                navLinks.forEach(link => {
+                    link.style.color = "var(--color1)";
+                });
+                break;
+            default:
+                logo.src = "./public/img/icons/logo2.png";
+                navLinks.forEach(link => {
+                    link.style.color = "white";
+                });
+                break;
         }
     });
 </script>

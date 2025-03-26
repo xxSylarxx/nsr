@@ -268,6 +268,22 @@
             h2 {
                 font-size: 1.7rem;
             }
+
+            #portada {
+
+                background-size: 100%;
+                /*   background-position: center; */
+                background-repeat: no-repeat;
+                color: white;
+                padding-top: 8rem;
+                padding-bottom: 2rem;
+                height: 240px;
+
+            }
+
+            #portada h2 {
+                font-size: 1.5rem !important;
+            }
         }
 
 

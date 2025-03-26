@@ -50,13 +50,20 @@ switch ($pagina) {
     .nav-item>.nav-link {
         color: var(--color1) !important;
     }
+    #header nav.navbar {
+        padding: 14px 4%;
+    }
     
 
-    @media only screen and (max-width: 450px) {
+    @media only screen and (max-width: 650px) {
 
         .navbar-light .navbar-toggler {
             color: white;
             border-color: white;
+            background-color: var(--color1);
+        }
+        .out-bottom a{
+            margin-left: 10px;
         }
     }
     @media only screen and (min-width: 900px) and (max-width:1400px) {

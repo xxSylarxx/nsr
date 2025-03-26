@@ -235,7 +235,7 @@
             </div>
             <div class="col-lg-4 py-2 px-5">
                 <h4 class="text-start" style="color:var(--color1);">CONTÁCTANOS</h4>
-                <a href="https://www.google.com/maps/place/Av.+San+Mart%C3%ADn+641,+Lima+15434/" target="_blank"><div class="d-flex justify-content-start py-1" style="color:var(--color1);font-family: 'Raleway', sans-serif;"><i class="fas fa-location-arrow" style="color:var(--color2);font-size:.8rem;"></i>&nbsp;&nbsp;<p class="text-start" style="margin-top: -5px; margin-bottom:0px;">&nbsp;&nbsp; Av. San Martín 641 - S.J.L., Lima - Perú</p>
+                <a href="https://www.google.com/maps/place/Av.+San+Mart%C3%ADn+641,+Lima+15434/" target="_blank"><div class="d-flex justify-content-start py-1" style="color:var(--color1);font-family: 'Raleway', sans-serif;"><i class="fas fa-location-arrow" style="color:var(--color2);font-size:.8rem;"></i>&nbsp;&nbsp;<p class="text-start" style="margin-top: -5px; margin-bottom:0px;margin-left: -8px;">&nbsp;&nbsp; Av. San Martín 641 - S.J.L., Lima - Perú</p>
                 </div></a>
                <a href="https://api.whatsapp.com/send?phone=972329195" target="_blank"><div class="d-flex justify-content-start py-1"   style="color:var(--color1);font-family: 'Raleway', sans-serif;"><i class="fab fa-whatsapp my-auto" style="color:var(--color2);font-size:1.4rem;"></i>&nbsp;&nbsp;972 329 195</div></a>
                <a href="https://api.whatsapp.com/send?phone=940164151" target="_blank"><div class="d-flex justify-content-start py-1" style="color:var(--color1);font-family: 'Raleway', sans-serif;"><i class="fab fa-whatsapp my-auto" style="color:var(--color2);font-size:1.4rem;"></i>&nbsp;&nbsp;940 164 151</div></a>

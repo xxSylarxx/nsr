@@ -45,10 +45,12 @@
         #alianzas h2 {
             font-size: 2.5rem !important;
             text-align: center;
+            padding-bottom: 3.5rem;
         }
 
         /*Estilos de la sección de niveles */
         #niveles {
+            padding-top: 5rem;
             padding-bottom: 5rem;
             /* background-color:var(--color5); */
             background: linear-gradient(rgba(0, 54, 114, 1), rgba(0, 54, 114, 0.9)), url(./public/img/web/back_footer.jpg);
@@ -59,6 +61,7 @@
             font-size: 2.5rem !important;
             text-align: center;
             color: white;
+            padding-bottom: 3rem;
         }
 
         #niveles span {
@@ -102,7 +105,7 @@
         /* Estilos de la seccion galeria */
         #galeria {
             background-color: var(--color7);
-            padding-top: 7rem;
+            padding-top: 6rem;
             padding-bottom: 10rem;
         }
 
@@ -116,6 +119,7 @@
         #galeria h2 {
             font-size: 2.5rem !important;
             text-align: center;
+            padding-bottom: 4rem;
         }
 
         /*   Estilos de la seccion de videoinstitucional */
@@ -184,6 +188,7 @@
 
 
         .boton3 {
+            text-align: center;
             padding: 1rem;
             border: 2px solid white;
             color: white;
@@ -387,13 +392,14 @@
         }
 
         #noticias {
-            padding-top: 3rem;
-            padding-bottom: 5rem;
+            padding-top: 5rem;
+            padding-bottom: 9rem;
         }
 
         #noticias h2 {
             font-size: 2.5rem !important;
             text-align: center;
+            padding-bottom: 2.5rem;
         }
 
         #noticias .card .news {
@@ -406,8 +412,6 @@
             color: white;
             font-size: 14px;
             font-weight: bold;
-
-
             transform: translateY(-5%);
 
         }
@@ -530,7 +534,116 @@
             object-fit: cover;
         }
 
-        @media only screen and (max-width: 450px) {
+        #bienvenida {
+            padding-top: 6rem;
+        }
+
+        /* Estilos del formulario */
+        #form-portada {
+
+            width: 85%;
+        }
+
+        .card2 {
+            padding: 2.5rem;
+            /* background-color:rgba(0, 0, 0, 0.8) ; */
+            background-color: var(--color7);
+            border-radius: 5px;
+        }
+
+        #input-formulario {
+            display: block;
+            width: 100%;
+            padding: 1rem 1rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            background-color: #fff;
+            background-clip: padding-box;
+            border-right: 1px solid #969696;
+            border-bottom: 1px solid #969696;
+            border-top: 1px solid #969696;
+            border-left: 1px solid #969696;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+
+        #input-formulario:focus {
+            color: #212529;
+            background-color: #fff;
+            border-color: var(--color1);
+            outline: 0;
+
+            box-shadow: 0 0 0 .25rem rgba(36, 40, 127, 0);
+        }
+
+        #terminos {
+            font-size: 1rem;
+            color: var(--color1);
+        }
+
+
+        .select-form {
+
+            display: block;
+            width: 100%;
+            padding: 1rem 2.25rem 1rem .75rem;
+            -moz-padding-start: calc(.75rem - 3px);
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #A1A1A4;
+            background-color: #fff;
+            background-image: url('./public/img/icons/abajo-icon.png');
+            background-repeat: no-repeat;
+            background-position: right .75rem center;
+            background-size: 16px 12px;
+            border-right: 1px solid #969696;
+            border-bottom: 1px solid #969696;
+            border-top: 1px solid #969696;
+            border-left: 1px solid #969696;
+            -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+            transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+
+        .select-form:focus {
+
+            color: #212529;
+            background-color: #fff;
+            border-color: var(--color1);
+            outline: 0;
+            box-shadow: 0 0 0 .25rem rgba(36, 40, 127, 0);
+        }
+
+        .select-form option {
+            color: black;
+        }
+
+        /* Eliminar las flechas en navegadores como Chrome, Safari y Edge */
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        .boton {
+            border: none;
+            color: var(--color7);
+            background: var(--color1);
+
+            font-weight: 600;
+            padding: 18px 40px;
+            margin-right: 1rem;
+        }
+
+        @media only screen and (max-width: 650px) {
 
             #lema {
                 background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, #ffff 10%, #ffff 50%),
@@ -586,6 +699,78 @@
             #p-slider-reconocimientos {
                 margin-bottom: 7rem;
             }
+
+            #galeria {
+                padding-top: 1rem;
+            }
+
+            #galeria h2 {
+                padding-bottom: 1rem;
+            }
+
+            #niveles {
+                padding-top: 1.4rem;
+            }
+
+            #niveles h2 {
+                padding-bottom: .1rem;
+            }
+
+            #alianzas {
+                padding-top: 3.5rem;
+            }
+
+            #alianzas h2 {
+                padding-bottom: 1.7rem;
+            }
+
+            #noticias {
+                padding-top: 3.2rem;
+                padding-bottom: 3.8rem;
+            }
+
+            #noticias h2 {
+                padding-bottom: 1.5rem;
+            }
+
+            #baner {
+                padding-top: 2rem;
+            }
+
+            #baner img {
+                object-fit: contain;
+                width: 100%;
+                height: auto;
+
+            }
+
+            #baner .text-banner {
+                padding: 1rem;
+                color: var(--color6);
+                position: absolute;
+                top: 55%;
+                left: 10%;
+                z-index: 2;
+            }
+
+            #banner-titulo {
+                font-size: 1.3rem;
+
+            }
+
+            #banner-detalle {
+                font-size: .6rem;
+
+            }
+
+            #bienvenida {
+                padding-top: 4rem;
+            }
+
+            #form-portada {
+                padding-top: 3rem;
+                width: 100%;
+            }
         }
     </style>
 
@@ -627,8 +812,8 @@
                             <span id="banner-titulo">SANA CONVIVENCIA</span>
                             <br>
                             <span id="banner-detalle">
-                                Contamos con un programa de tutoría y convivencia democrática, a cargo del<br>
-                                Departamento psicopedagógico que brinda a los estudiantes diversos talleres,<br>
+                                Contamos con un programa de tutoría y convivencia democrática, a cargo<br> del
+                                departamento psicopedagógico que brinda a los estudiantes diversos<br> talleres,
                                 charlas de control emocional y desarrollo de proyecto de vida.
                             </span>
                         </div>
@@ -646,7 +831,7 @@
         </div>
     </section>
 
-    <br><br><br><br>
+
 
     <section id="bienvenida" class="container-fluid" style="padding-left: 8%;padding-right: 8%;">
         <div class="row justify-content-between">
@@ -676,8 +861,8 @@
                 <p style="line-height: 2; text-align: justify;">Brindamos inglés semi intensivo con certificacón internacional University Cambridge </p>
 
                 <!-- <div class="text-center boton1"> -->
-                    <!--  <button id="boton" class="btn text-white fw-bold px-4" onclick="location.href = 'nosotros'">Ver más</button> -->
-                    <!-- <a href="#" class="boton">Conoce Más</a>
+                <!--  <button id="boton" class="btn text-white fw-bold px-4" onclick="location.href = 'nosotros'">Ver más</button> -->
+                <!-- <a href="#" class="boton">Conoce Más</a>
                 </div> -->
             </div>
             <div class="col-lg-6 my-auto">
@@ -699,128 +884,7 @@
                 </div>
                 <div class="col-lg-5 my-auto">
                     <div class="mx-3">
-                        <!-- <div class="py-4">
-                            <h2 class="text-center">
-                                Proceso de Admisión 2025
-                            </h2>
-                        </div>
-                         <div class="d-flex justify-content-center">
-                            <a href="" class="boton2">Inscríbete Aquí</a>
-                            <button class="btn-ver-mas">
-                                Inscríbete Aquí
-                                Contenedor de las flechas
-                                <div class="flechas">
-                                    <div class="flecha"></div>
-                                    <div class="flecha"></div>
-                                    <div class="flecha"></div>
-                                </div>
-                            </button>
-                        </div> -->
-                        <style>
-                            #form-portada {
 
-                                width: 85%;
-                            }
-
-                            .card2 {
-                                padding: 2.5rem;
-                                /* background-color:rgba(0, 0, 0, 0.8) ; */
-                                background-color: var(--color7);
-                                border-radius: 5px;
-                            }
-
-                            #input-formulario {
-                                display: block;
-                                width: 100%;
-                                padding: 1rem 1rem;
-                                font-size: 1rem;
-                                font-weight: 400;
-                                line-height: 1.5;
-                                color: #212529;
-                                background-color: #fff;
-                                background-clip: padding-box;
-                                border-right: 1px solid #969696;
-                                border-bottom: 1px solid #969696;
-                                border-top: 1px solid #969696;
-                                border-left: 1px solid #969696;
-                                -webkit-appearance: none;
-                                -moz-appearance: none;
-                                appearance: none;
-                            }
-
-                            #input-formulario:focus {
-                                color: #212529;
-                                background-color: #fff;
-                                border-color: var(--color1);
-                                outline: 0;
-
-                                box-shadow: 0 0 0 .25rem rgba(36, 40, 127, 0);
-                            }
-
-                            #terminos {
-                                font-size: 1rem;
-                                color: var(--color1);
-                            }
-
-
-                            .select-form {
-
-                                display: block;
-                                width: 100%;
-                                padding: 1rem 2.25rem 1rem .75rem;
-                                -moz-padding-start: calc(.75rem - 3px);
-                                font-size: 1rem;
-                                font-weight: 400;
-                                line-height: 1.5;
-                                color: #A1A1A4;
-                                background-color: #fff;
-                                background-image: url('./public/img/icons/abajo-icon.png');
-                                background-repeat: no-repeat;
-                                background-position: right .75rem center;
-                                background-size: 16px 12px;
-                                border-right: 1px solid #969696;
-                                border-bottom: 1px solid #969696;
-                                border-top: 1px solid #969696;
-                                border-left: 1px solid #969696;
-                                -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-                                transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-                                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-                                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-                                -webkit-appearance: none;
-                                -moz-appearance: none;
-                                appearance: none;
-                            }
-
-                            .select-form:focus {
-
-                                color: #212529;
-                                background-color: #fff;
-                                border-color: var(--color1);
-                                outline: 0;
-                                box-shadow: 0 0 0 .25rem rgba(36, 40, 127, 0);
-                            }
-
-                            .select-form option {
-                                color: black;
-                            }
-
-                            /* Eliminar las flechas en navegadores como Chrome, Safari y Edge */
-                            input[type="number"]::-webkit-inner-spin-button,
-                            input[type="number"]::-webkit-outer-spin-button {
-                                -webkit-appearance: none;
-                                margin: 0;
-                            }
-
-                            .boton {
-                                border: none;
-                                color: var(--color7);
-                                background: var(--color1);
-
-                                font-weight: 600;
-                                padding: 18px 40px;
-                                margin-right: 1rem;
-                            }
-                        </style>
                         <center>
                             <div id="form-portada">
                                 <div class="container">
@@ -902,24 +966,24 @@
         </div>
     </section>
     <section id="galeria">
-        <div class="container py-5">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h2>CONTRIBUYEN A SU FORMACIÓN INTEGRAL</h2>
                 </div>
             </div>
         </div>
-        <div style="padding-top: 6rem;padding-bottom: 1rem;padding-left:3%;padding-right: 3%;">
+        <div style="padding-bottom: 1rem;padding-left:3%;padding-right: 3%;">
             <div class="row d-flex justify-content-around">
-                <div class="col-lg-4">
+                <div class="col-lg-4 pt-5">
                     <div style="position:relative;">
-                    <img src="./public/img/galeria/portada_vocacional.jpg" alt="">
+                        <img src="./public/img/galeria/portada_vocacional.jpg" alt="">
                         <div class="div-boton3" style="position:absolute;bottom:6%;left:50%;transform: translate(-50%, -50%);">
                             <a href="./galeria3.php" class="boton3">FERIA VOCACIONAL</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 pt-5">
                     <div style="position:relative;">
                         <img src="./public/img/galeria/portada_natacion.jpg" alt="">
                         <div style="position:absolute;bottom:6%;left:50%;transform: translate(-50%, -50%);">
@@ -927,7 +991,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 pt-5">
                     <div style="position:relative;">
                         <img src="./public/img/galeria/portada.jpg" alt="">
                         <div style="position:absolute;bottom:6%;left:50%;transform: translate(-50%, -50%);">
@@ -939,16 +1003,16 @@
         </div>
     </section>
     <section id="niveles">
-        <div style="padding-top: 6rem;padding-bottom: 1rem;padding-left:2%;padding-right: 2%;">
+        <div style="padding-bottom: 1rem;padding-left:2%;padding-right: 2%;">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-3 py-3">
-                        <div class="pb-5">
-                            <div style="text-align:center;">
-                                <h2>NIVELES</h2>
-                            </div>
-                            <div class="separador mx-auto"></div>
+
+                        <div style="text-align:center;">
+                            <h2>NIVELES</h2>
                         </div>
+                        <div class="separador mx-auto"></div>
+
                     </div>
                 </div>
             </div>
@@ -1052,7 +1116,7 @@
 
     <section id="alianzas">
         <div class="container-fluid" style="padding-right: 7%;padding-left: 7%;">
-            <div class="container py-5">
+            <div class="container ">
                 <div class="row">
                     <div class="col-lg-12">
                         <h2>ALIANZAS ESTRATÉGICAS</h2>
@@ -1101,11 +1165,11 @@
             </div>
         </div>
     </section>
-    <br><br><br>
+
 
     <section id="noticias">
         <div class="container">
-            <div class="row mb-4">
+            <div class="row">
                 <div class="col text-start">
                     <h2>Noticias</h2>
                 </div>
@@ -1195,36 +1259,8 @@
             </div>
         </div>
     </section>
-    <br><br><br>
-    <!-- <div class="w-100" style="padding-top: 4%; padding-bottom: 2%;">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl h-100 col-sm text-center my-auto">
-                    <h1><span>CONVENIOS</span></h1>
-                    <p id="p-slider-reconocimientos">Con el fin de brindar mayores beneficios y facilidades,
-                        contamos con diversos convenios exclusivos para nuestros estudiantes.</p>
-                </div>
-            </div>
-            <div class="row owl-carousel mx-0" id="owl-one">
-                <div class="col  justify-content-center align-content-center">
-                    <img src="./public/img/fotos/universidad.png">
-                </div>
-                <div class="col justify-content-center align-content-center">
-                    <img src="./public/img/fotos/ucsm.png">
-                </div>
-                <div class="col justify-content-center align-content-center">
-                    <img src="./public/img/fotos/office365.png">
-                </div>
-                <div class="col justify-content-center align-content-center">
-                    <img src="./public/img/fotos/zoom.png">
-                </div>
-                <div class="col justify-content-center align-content-center">
-                    <img src="./public/img/fotos/tinkercad.png">
-                </div>
-            </div>
-        </div>
-        <br><br><br>
-    </div> -->
+
+
     <?php include_once 'includes/footer.php'; ?>
 
     <script>

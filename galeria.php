@@ -124,6 +124,7 @@
             background-color: rgba(0, 0, 0, 0.5);
             display: inline-block;
             transition: ease-in-out 0.83s;
+            text-align: center;
         }
 
         .boton3:hover {
@@ -150,6 +151,21 @@
         #galeria h2 {
             font-size: 2.5rem !important;
             text-align: center;
+            padding-bottom: 5rem;
+        }
+        @media only screen and (max-width:750px) {
+            #galeria {
+                padding-top: 2.8rem!important;
+                padding-bottom: 0rem;
+            }
+            #galeria h2 {
+                font-size: 1.9rem !important;
+                padding-bottom: 0rem;
+
+            }
+            #galeria img {
+                width: 100%;
+            }
         }
     </style>
 
@@ -193,9 +209,9 @@
                 </div>
             </div>
         </div>
-        <div style="padding-top: 6rem;padding-bottom: 1rem;padding-left:3%;padding-right: 3%;">
+        <div style="padding-bottom: 1rem;padding-left:3%;padding-right: 3%;">
             <div class="row d-flex justify-content-around">
-                <div class="col-lg-4">
+                <div class="col-lg-4 pt-5">
                     <div style="position:relative;">
                         <img src="./public/img/galeria/portada_vocacional.jpg" alt="">
                         <div class="div-boton3" style="position:absolute;bottom:6%;left:50%;transform: translate(-50%, -50%);">
@@ -203,7 +219,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 pt-5">
                     <div style="position:relative;">
                         <img src="./public/img/galeria/portada_natacion.jpg" alt="">
                         <div style="position:absolute;bottom:6%;left:50%;transform: translate(-50%, -50%);">
@@ -211,7 +227,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 pt-5">
                     <div style="position:relative;">
                         <img src="./public/img/galeria/portada.jpg" alt="">
                         <div style="position:absolute;bottom:6%;left:50%;transform: translate(-50%, -50%);">

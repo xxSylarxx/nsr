@@ -631,6 +631,9 @@
             #niveles {
                 padding-top: 40rem;
             }
+            .form-check{
+                padding-top: 2rem;
+            }
         }
 
 
@@ -662,7 +665,7 @@
 
     <?php include_once 'includes/header2.php'; ?>
     <section id="content-b">
-        <div class="container-fluid p-0">
+        <div class="container-fluid ">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-6 datos">
                     <!-- <h4>Conversemos</h4> -->

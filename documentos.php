@@ -58,6 +58,7 @@
             color: #fff;
             font-size: 22px;
         }
+
         #portada {
             height: 80vh;
             padding-top: 25rem;
@@ -267,6 +268,23 @@
             h2 {
                 font-size: 1.7rem;
             }
+
+            #portada {
+
+                background-size: 100%;
+                /*   background-position: center; */
+                background-repeat: no-repeat;
+                color: white;
+                padding-top: 8rem;
+                padding-bottom: 2rem;
+                height: 240px;
+
+            }
+
+            #portada h2 {
+                font-size: 1.5rem !important;
+
+            }
         }
 
 
@@ -336,7 +354,7 @@
 
                                 <h5 class="fw-bold text-uppercase" style="font-size: 18px;color:var(--color9);">HORARIO DE ATENCIÓN PP.FF.</h5>
 
-                                    <!-- <div class="detalle">
+                                <!-- <div class="detalle">
                                     HORARIO DE ATENCIÓN PP.FF.
                                     </div> -->
 

@@ -6,6 +6,7 @@
     --color5: #fff;
     --color6:#F6F6F6;
     --color7:#E5ECF2;
+    --color8:#BFF0FF;
   }
   
   @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700&display=swap");
@@ -172,7 +173,8 @@
   
   @media only screen and (max-width: 700px) {
     #logotipo {
-      height: 50px;
+      height: auto;
+      width: 250px;
     }
   
     #header .barsup {

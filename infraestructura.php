@@ -68,6 +68,7 @@
             color: #fff;
             font-size: 22px;
         }
+
         #portada {
             height: 80vh;
             padding-top: 25rem;
@@ -92,6 +93,14 @@
             border-radius: 10px;
         }
 
+        #infraestructura>.container-fluid {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        .margin-infra {
+            margin: 0 2rem;
+        }
+
         @media only screen and (max-width: 650px) {
             #portada {
                 background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .6)), url("./public/img/web/banner_infra.jpg");
@@ -100,15 +109,33 @@
                 /*   background-position: center; */
                 background-repeat: no-repeat;
                 color: white;
-                padding-top: 3rem;
+                padding-top: 8rem;
                 padding-bottom: 2rem;
                 height: 240px;
 
             }
 
-            #portada h1 {
-                font-size: 2.1em;
+            #portada h2 {
+                font-size: 1.5rem !important;
+
             }
+
+            #infraestructura {
+                padding-top: 4rem !important;
+            }
+
+            #infraestructura h2 {
+                text-align: center;
+            }
+
+
+            #infraestructura>.container-fluid {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            .margin-infra {
+            margin: 0 1rem;
+        }
         }
     </style>
 
@@ -175,19 +202,37 @@
             position: absolute;
             right: -8px;
         }
+
+        @media only screen and (max-width: 650px) {
+            .owl-nav {
+                top: 38%;
+            }
+
+            .owl-prev,
+            .owl-next {
+
+                width: 40px;
+                height: 40px;
+
+                font-size: 20px;
+                cursor: pointer;
+
+            }
+
+        }
     </style>
     <section id="infraestructura">
-        <div class="container-fluid" style="padding-left: 10%;padding-right: 10%;">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 my-auto">
-                    <div class="mx-5">
+                    <div class="margin-infra">
                         <h2>INFRAESTRUCTURA NIVEL INICIAL</h2>
                         <br>
                         <p><b>Un espacio donde la magia comienza: Nivel Inicial.</b> Nuestras instalaciones de 1200m² están diseñadas exclusivamente para los más pequeños, ofreciendo un entorno seguro y estimulante para su desarrollo integral. Contamos con un amplio patio al aire libre, perfecto para juegos y exploración, y un luminoso salón de clases donde la creatividad no tiene límites. La sala de psicomotricidad, equipada con materiales didácticos, fomenta el movimiento y la coordinación. Además, el área de juegos, con toboganes y columpios, garantiza diversión y aprendizaje en cada momento. En nuestro nivel inicial, cada día es una nueva aventura llena de descubrimientos y sonrisas.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 my-auto">
-                    <div class="mx-5">
+                    <div class="margin-infra">
                         <div class="sedes_content_slider owl-carousel owl-theme">
                             <div class="sedes_slider">
                                 <img src="./public/img/web/if_inicial1.jpg" alt="">
@@ -205,7 +250,7 @@
 
             <div class="row py-5">
                 <div class="col-lg-6 my-auto">
-                    <div class="mx-5">
+                    <div class="margin-infra">
                         <div class="sedes_content_slider owl-carousel owl-theme">
                             <div class="sedes_slider">
                                 <img src="./public/img/web/if_primaria.jpg" alt="Sede Carabayllo 1">
@@ -219,7 +264,7 @@
 
                 </div>
                 <div class="col-lg-6 my-auto">
-                    <div class="mx-5 ">
+                    <div class="margin-infra pt-5">
                         <h2>INFRAESTRUCTURA NIVEL PRIMARIA</h2>
                         <br>
                         <p><b>Aprendizaje dinámico en un entorno tecnológico.</b> Nuestras instalaciones de 3500m² están diseñadas para fomentar la curiosidad y el aprendizaje activo. Cada aula cuenta con proyectores multimedia interactivos y pizarras interactivas, transformando la experiencia educativa. La conexión de fibra óptica de 100MB y los laboratorios de cómputo permiten a los estudiantes explorar el mundo digital. Además, el laboratorio de ciencias y las piscinas ofrecen oportunidades para la experimentación y el desarrollo físico.</p>
@@ -232,7 +277,7 @@
 
             <div class="row">
                 <div class="col-lg-6 my-auto">
-                    <div class="mx-5">
+                    <div class="margin-infra">
                         <h2>INFRAESTRUCTURA NIVEL SECUNDARIA</h2>
                         <br>
                         <p>
@@ -241,7 +286,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 my-auto">
-                    <div class="mx-5">
+                    <div class="margin-infra">
                         <div class="sedes_content_slider owl-carousel owl-theme">
                             <div class="sedes_slider">
                                 <img src="./public/img/web/if_secundaria.jpg" alt="Sede Carabayllo 1">

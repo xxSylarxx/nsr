@@ -268,6 +268,14 @@
 
                 word-wrap: break-word;
             }
+
+            .portada img{
+                object-fit: contain!important;
+                height: auto!important;
+
+            }
+            .portada h2 {
+                font-size: 1.9rem!important;          }
         }
 
         @media only screen and (max-width:1399px) {
@@ -344,7 +352,9 @@
                                 <div>Carpeta de Admisi&oacute;n</div>
                                 <div>&nbsp;</div>
                                 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Cancelar S/. 50.00 Soles a la siguiente cuenta bancaria:</div>
-                                <strong><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N&ordm; de cuenta BCP 191-1084986-052-Promotora Nuestra Se&ntilde;ora del Rosario S.A.C.</div></strong>
+                                <strong>
+                                    <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N&ordm; de cuenta BCP 191-1084986-052-Promotora Nuestra Se&ntilde;ora del Rosario S.A.C.</div>
+                                </strong>
                             </div>
                             <div>&nbsp;</div>
                         </div>
