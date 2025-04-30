@@ -228,6 +228,7 @@
             </div>
             <div class="col-lg-2 py-2 px-5">
                 <h4 class="text-start" style="color:var(--color1);">NIVELES</h4>
+                <div class="d-flex justify-content-start py-2"><i class="fas fa-angle-right" style="color:var(--color2);font-size:1.3rem;"></i><a href="./prekinder.php" style="color:var(--color1);font-family: 'Raleway', sans-serif;">&nbsp;&nbsp;Pre-Kinder</a></div>
                 <div class="d-flex justify-content-start py-2"><i class="fas fa-angle-right" style="color:var(--color2);font-size:1.3rem;"></i><a href="./inicial.php" style="color:var(--color1);font-family: 'Raleway', sans-serif;">&nbsp;&nbsp;Inicial</a></div>
                 <div class="d-flex justify-content-start py-2"><i class="fas fa-angle-right" style="color:var(--color2);font-size:1.3rem;"></i><a href="./primaria.php" style="color:var(--color1);font-family: 'Raleway', sans-serif;">&nbsp;&nbsp;Primaria</a></div>
                 <div class="d-flex justify-content-start py-2"><i class="fas fa-angle-right" style="color:var(--color2);font-size:1.3rem;"></i><a href="./secundaria.php" style="color:var(--color1);font-family: 'Raleway', sans-serif;">&nbsp;&nbsp;Secundaria</a></div>

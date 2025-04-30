@@ -50,10 +50,11 @@ switch ($pagina) {
     .nav-item>.nav-link {
         color: var(--color1) !important;
     }
+
     #header nav.navbar {
         padding: 14px 4%;
     }
-    
+
 
     @media only screen and (max-width: 650px) {
 
@@ -62,10 +63,12 @@ switch ($pagina) {
             border-color: white;
             background-color: var(--color1);
         }
-        .out-bottom a{
+
+        .out-bottom a {
             margin-left: 10px;
         }
     }
+
     @media only screen and (min-width: 900px) and (max-width:1400px) {
         #opcion-responsive {
             padding-right: .60em !important;
@@ -132,6 +135,7 @@ switch ($pagina) {
                         Niveles <i class="fas fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="./prekinder.php">Pre-Kinder</a></li>
                         <li><a class="dropdown-item" href="./inicial.php">Inicial</a></li>
                         <li><a class="dropdown-item" href="./primaria.php">Primaria</a></li>
                         <li><a class="dropdown-item" href="./secundaria.php">Secundaria</a></li>

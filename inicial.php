@@ -1087,7 +1087,7 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-4 d-flex justify-content-center">
-                    <a href="./public/files/brochure_kinder_2024.pdf" class="btn" target="_blank">
+                    <a href="./public/files/brochure_inicial_2025.pdf" class="btn" target="_blank">
                         Descargar Brochure&nbsp;&nbsp;<i class="far fa-file-pdf"></i>
                     </a>
                 </div>

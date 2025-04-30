@@ -695,6 +695,7 @@
                                 <!--  <select id="nivel" name="nivel" onchange="actualizarGrados()"> -->
                                 <select id="nivel" class="mb-3 select-form" aria-label="Default select example" name="nivel" onchange="actualizarGrados()" required="" control-id="ControlID-6">
                                     <option selected="">Seleccione un Nivel</option>
+                                    <option value="prekinder">Pre-Kinder</option>
                                     <option value="inicial">Inicial</option>
                                     <option value="primaria">Primaria</option>
                                     <option value="secundaria">Secundaria</option>

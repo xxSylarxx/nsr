@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -72,9 +68,9 @@
         /* portada */
         #portada {
             background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-                url('./public/img/web/p-secundaria2.jpg');
+                url('./public/img/web/portada_prekinder.jpg');
             background-size: cover;
-            background-position: center 20%;
+            background-position: center 80%;
             height: 100%;
             padding: 550px 0 10px;
         }
@@ -104,6 +100,7 @@
             padding-bottom: 1rem;
         }
 
+
         /* Estilos contenido bienvenido */
 
         #content-b h2 {
@@ -118,8 +115,8 @@
         #content-b img {
             width: 100%;
             object-fit: cover;
-            height: 550px;
-            object-position: top;
+            height: 430px;
+            object-position: center;
         }
 
         .content-b2 {
@@ -187,7 +184,7 @@
         #metodologia p {
             color: var(--color1);
             /* font-size: 1.4rem; */
-            text-align: start;
+            text-align: center;
         }
 
         /* #metodologia img {
@@ -762,6 +759,7 @@
         }
 
         @media only screen and (max-width:750px) {
+
             .img-enlacedirecto {
                 width: 100px;
             }
@@ -787,6 +785,7 @@
             #content-b img {
                 height: auto;
             }
+
 
             #portada {
 
@@ -816,10 +815,6 @@
             .card-body h4 {
                 text-align: center;
             }
-            #metodologia p{
-                text-align: justify;
-            }
-
         }
 
 
@@ -854,7 +849,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 animate__animated animate__fadeInLeft">
-                    <h2 class="page_title">NIVEL SECUNDARIA</h2>
+                    <h2 class="page_title">NIVEL Pre-Kinder</h2>
                     <div class="page_breadcrumb">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
@@ -868,48 +863,33 @@
         </div>
     </div>
     <section id="content-b">
-        <div class="container-fluid">
-
+        <div class="container-fluid ">
             <div class="row d-flex justify-content-center">
-                <div class="col-lg-6 px-5 my-auto">
+                <div class="col-lg-6 px-5 ">
                     <div class="content-b2">
-                        <h2>Nivel Secundaria</h2>
-                        <p>
-                            En el nivel de secundaria, buscamos en el estudiante el desarrollo de las inteligencias
-                            múltiples, mediante diferentes metodologías constructivistas ,
-                            activas tales como : flipped classroom o clases invertidas o
-                            llamado aprendizaje mixto , desarrollo de talleres artísticos,
-                            deportivos, culturales, de emprendimiento y de investigación científica.
-                            Brindamos inglés semi-intensivo con certificación internacional
-                            UNIVERSITY CAMBRIDGE.
-                        </p>
-
-                        <span>
-                            <strong>HORARIO DE CLASES</strong><br>
-                        </span>
-
-                        <ul class="course-list">
-                            <li class="course-item my-2"><i class="fas fa-check-circle"></i> Lunes y Miércoles: 7:30 a.m. - 2:35 p.m. </li>
-                            <li class="course-item my-2"><i class="fas fa-check-circle"></i> Martes, Jueves y Viernes: 7:30 a.m. - 2:50 p.m. </li>
-                        </ul>
+                        <h2>Pre-Kinder</h2>
+                        <h2> Estimulacion Temprana</h2>
+                        <br><br>
+                        <p><b>
+                                Programa de 1 año 9 meses – 2 años 11 meses.
+                        </p></b>
+                        <p><b>Programa madre niño. </b></p>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="./public/img/web/pi-secundaria.jpg" alt="">
+                    <img src="./public/img/web/foto_prekinder.jpg" alt="">
                 </div>
             </div>
-
         </div>
     </section>
 
     <section id="metodologia">
         <div class="container-fluid pb-5">
             <div class="row d-flex justify-content-center">
-                <div class="col-lg">
+                <div class="col-lg ">
                     <h2>Estrategia Metodológica</h2>
                     <br>
-                    <p>
-                        Nuestra estrategia metodológica busca fomentar una formación integral a través del desarrollo de la autonomía, la identidad y la sana convivencia. Además, promovemos la participación en organizaciones estudiantiles, la investigación y el emprendimiento, permitiendo a los estudiantes fortalecer sus habilidades sociales, emocionales y vocacionales para definir su proyecto de vida.
+                    <p>En «Aprendo Jugando» los padres descubrirán cómo pueden aprovechar al máximo los potenciales de su niño.
                     </p>
                 </div>
             </div>
@@ -917,28 +897,28 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
-                    <div class=" div-metodologia row d-flex justify-content-center py-3">
+                    <div class="div-metodologia row d-flex justify-content-center py-3">
                         <div class="col-lg-2 mx-4">
                             <center>
                                 <div class="icon-metodologia">
-                                    <img src="./public/img/icons/trabajo_equipo.png" alt="">
+                                    <img src="./public/img/icons/metodologia_mate.png" alt="">
                                 </div>
                             </center>
                         </div>
                         <div class="col-lg-5 my-auto">
-                            <p>Formación de la autonomía e identidad.</p>
+                            <p>Estimulamos el pensamiento matemático.</p>
                         </div>
                     </div>
                     <div class=" div-metodologia row d-flex justify-content-center py-3">
                         <div class="col-lg-2 mx-4">
                             <center>
                                 <div class="icon-metodologia">
-                                    <img src="./public/img/icons/investigador.png" alt="">
+                                    <img src="./public/img/icons/metodologia_psicomotor.png" alt="">
                                 </div>
                             </center>
                         </div>
                         <div class="col-lg-5 my-auto">
-                            <p>Investigación y emprendimiento.</p>
+                            <p>Contribuimos con el desarrollo psicomotor .</p>
                         </div>
                     </div>
                 </div>
@@ -947,28 +927,28 @@
                         <div class="col-lg-2 mx-4">
                             <center>
                                 <div class="icon-metodologia">
-                                    <img src="./public/img/icons/convivencia.png" alt="">
+                                    <img src="./public/img/icons/metodologia_individual.png" alt="">
                                 </div>
                             </center>
                             <!-- <br>
                     <h2>Misión</h2> -->
                         </div>
                         <div class="col-lg-5 my-auto">
-                            <p>Promovemos la sana convivencia.</p>
+                            <p>Fomentamos el desarrollo de la individualidad y la seguridad.</p>
                         </div>
                     </div>
                     <div class=" div-metodologia row d-flex justify-content-center py-3">
                         <div class="col-lg-2 mx-4">
                             <center>
                                 <div class="icon-metodologia">
-                                    <img src="./public/img/icons/organizacion.png" alt="">
+                                    <img src="./public/img/icons/metodologia_imaginacion.png" alt="">
                                 </div>
                             </center>
                             <!-- <br>
                     <h2>Misión</h2> -->
                         </div>
                         <div class="col-lg-5 my-auto">
-                            <p style="text-align: start;">Organizaciones estudiantiles.</p>
+                            <p style="text-align: start;">Alentamos su creatividad e imaginación.</p>
                         </div>
                     </div>
                 </div>
@@ -984,46 +964,6 @@
     <section id="cursos">
         <div class="container-fluid" style="margin-top: -60px;">
             <div class="row mx-0 d-flex justify-content-center">
-                <!--      <h4 style="text-align: center; color:var(--color1);">Se brinda compendios académicos de trabajo de las áreas curriculares en forma gratuita.<br> Talleres gratuitos: computación, karate, danza.
-
-                </h4> -->
-                <br>
-                <br>
-                <br>
-                <br>
-                <div class="col-md-4 pt-5">
-                    <div class="card bg-1 text-white h-100">
-                        <div class="card-body d-flex">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./public/img/icons/matematica.png" class="mr-3">
-                                </div>
-                                <div class="col-lg-7 my-auto">
-                                    <h4 style="color:var(--color5);">Matemática</h4>
-                                    <!--   <p>Resuelve problemas de cantidad, forma, movimiento, equivalencia y de gestión de datos.
-                                        Logra superar los ejercicios con diferentes niveles de complejidad.
-                                    </p> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 pt-5">
-                    <div class="card text-white h-100" style="background-color: var(--color6);">
-                        <div class="card-body d-flex">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./public/img/icons/comunicacion.png" class="mr-3">
-                                </div>
-                                <div class="col-lg-7 my-auto">
-                                    <h4 style="color:var(--color1);">Comunicación</h4>
-                                    <!--  <p style="color: var(--color1);">Comprende y construye texto, con ello mejora su comunicación
-                                        para interactuar con otras personas. Conoce la evolución del lenguaje y la interpreta; así mismo, aprende y aplica las normas ortográficas.</p> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-md-4 pt-5">
                     <div class="card bg-1 text-white h-100">
                         <div class="card-body d-flex">
@@ -1032,25 +972,25 @@
                                     <img src="./public/img/icons/personal-social.png" class="mr-3">
                                 </div>
                                 <div class="col-lg-7 my-auto">
-                                    <h4 style="color:var(--color5);">Desarrollo Personal</h4>
-                                    <!--  <p>Conoce la historia de nuestro país desde tiempos remotos hasta la consolidación de la
-                                        república, generando la construcción de su propia identidad y el desarrollo de su autonomía. Reconoce la diversidad geográfica y sus características.</p> -->
+                                    <h4 style="color:var(--color5);">Personal Social</h4>
+                                    <!-- <p>Fomenta el amor por nuestra historia,
+                                        creencias y costumbres, así como el valor
+                                        por su familia, cultura y país.</p> -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 pt-5">
-                    <div class="card bg-4 text-white" style="background-color: var(--color6);">
-                        <div class="card-body d-flex h-100">
+                    <div class="card bg-2 text-white h-100" style="background-color: var(--color6);">
+                        <div class="card-body d-flex">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./public/img/icons/ciencia.png" class="mr-3">
+                                    <img src="./public/img/icons/intelectual_icono.png" class="mr-3">
                                 </div>
                                 <div class="col-lg-7 my-auto">
-                                    <h4 style="color: var(--color1);">Ciencia y Tecnología</h4>
-                                    <!--  <p style="color: var(--color1);">Contribuye al cuidado de los ecosistemas desde su conocimiento y
-                                        comprensión de la ciencia. Reconoce que la tecnología permite el desarrollo de la humanidad.</p> -->
+                                    <h4 style="color:var(--color1);">Intelectual</h4>
+                                    <!-- <p style="color: var(--color1);">Desarrolla la expresión y comprensión oral, la comprensión lectora, la producción de textos y la expresión artistica.</p> -->
                                 </div>
                             </div>
                         </div>
@@ -1061,26 +1001,13 @@
                         <div class="card-body d-flex">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./public/img/icons/educ-fisica.png" class="mr-3">
+                                    <img src="./public/img/icons/psicomotricidad.png" class="mr-3">
                                 </div>
                                 <div class="col-lg-7 my-auto">
-                                    <h4 style="color:var(--color5);">Educación Física</h4>
-                                    <!--  <p>Desarrolla una conciencia crítica hacia el cuidado de su salud y la de los demás. Es autónomo y capaz de asumir sus propias decisiones para mejorar su calidad de vida.</p> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 pt-5">
-                    <div class="card text-white h-100" style="background-color: var(--color6);">
-                        <div class="card-body d-flex">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./public/img/icons/ingles.png" class="mr-3">
-                                </div>
-                                <div class="col-lg-7 my-auto">
-                                    <h4 style="color:var(--color1);">Inglés</h4>
-                                    <!--  <p style="color:var(--color1);">Comprende y produce textos orales y escritos en inglés. Esta es una lengua extranjera importante, ya que permite acceder a los últimos avances tecnológicos, así como estar conectado con el mundo.</p> -->
+                                    <h4 style="color:white;">Psicomotricidad</h4>
+                                    <!-- <p>Desarrolla la psicomotricidad
+                                        asi como su capacidad para expresarse
+                                        y relacionarse en el mundo que lo envuelve.</p> -->
                                 </div>
                             </div>
                         </div>
@@ -1091,47 +1018,18 @@
                         <div class="card-body d-flex">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./public/img/icons/arte.png" class="mr-3">
+                                    <img src="./public/img/icons/arte_icono.png" class="mr-3">
                                 </div>
                                 <div class="col-lg-7 my-auto">
-                                    <h4 style="color:var(--color5);">Arte y Cultura</h4>
-                                    <!--  <p>Fortalece su autoestima, la valoración y aceptación de los consecuentemente, reconoce que el diálogo intercultural contribuye con la afirmación de las identidades personales y colectivas.</p> -->
+                                    <h4 style="color:white;">Arte</h4>
+                                    <!-- <p>Desarrolla la psicomotricidad
+                                        asi como su capacidad para expresarse
+                                        y relacionarse en el mundo que lo envuelve.</p> -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 pt-5">
-                    <div class="card text-white h-100" style="background-color: var(--color6);">
-                        <div class="card-body d-flex">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./public/img/icons/religion.png" class="mr-3">
-                                </div>
-                                <div class="col-lg-7 my-auto">
-                                    <h4>Religión</h4>
-                                    <!--  <p style="color:var(--color1);">Este curso-taller está a cargo del área de Psicología y, a través de él, se fortalecen los distintos valores que formamos en nuestros estudiantes.</p> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 pt-5">
-                    <div class="card bg-1 text-white h-100">
-                        <div class="card-body d-flex">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./public/img/icons/perserverancia.png" class="mr-3">
-                                </div>
-                                <div class="col-lg-7 my-auto">
-                                    <h4 style="color:var(--color5);">Educación para el trabajo </h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
         </div>
     </section>
@@ -1139,20 +1037,14 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-4 d-flex justify-content-center">
-                    <a href="./public/files/brochure_secundaria_2025.pdf" class="btn" target="_blank">
+                    <a href="./public/files/brochure_inicial_2025.pdf" class="btn" target="_blank">
                         Descargar Brochure&nbsp;&nbsp;<i class="far fa-file-pdf"></i>
                     </a>
                 </div>
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
+    </ /?php include_once './partials/redes.php' ; ?>
     <?php include_once 'includes/footer.php'; ?>
 
 </body>

@@ -1,0 +1,1309 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PÁGINAS WEB CUBICOL"
+    />
+    <link
+      rel="shortcut icon"
+      href="./public/img/icons/escudo.png"
+      type="image/x-icon"
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.15.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./public/css/web.css" />
+    <link rel="stylesheet" href="./public/css/index.css" />
+    <title>PÁGINAS WEB - CUBICOL</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-QXGGFL8267"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-QXGGFL8267");
+    </script>
+  </head>
+
+  <body>
+    <script src="./public/js/bootstrap.min.js"></script>
+    <script src="./public/js/popper.min.js"></script>
+
+    <div class="aviso-cookies" id="aviso-cookies">
+      <p>
+        Al hacer clic en "Aceptar cookies", concedes permiso al almacenamiento
+        de cookies en su dispositivo para mejorar la navegación del sitio web,
+        analizar su uso y mejorar nuestras acciones de marketing.
+      </p>
+      <div class="container-modal-cookies-btns">
+        <a href="cookies.html">
+          <button class="btn-politics-cookies">Política de cookies</button>
+        </a>
+        <button id="btn-acept-cookies" class="btn-acept-cookies">
+          Aceptar cookies
+        </button>
+      </div>
+    </div>
+    <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+
+    <div id="header-top"></div>
+    <header class="fixed-top" id="header">
+      <div class="container">
+        <!-- <div class="sup">
+                <div class="ms-auto">
+                    <a href="#" class="me-3" target="_blank"><i class="fab fa-facebook">
+                        </i><span> Facebook</span>
+                    </a>
+                    <a href="#" class="me-3" target="_blank"><i class="fab fa-youtube ">
+                        </i><span> Youtube</span>
+                    </a>
+                    <a href="#" target="_blank" class="me-3"><i class="fas fa-globe-americas">
+                        </i><span> Intranet</span>
+                    </a>
+                </div>
+            </div> -->
+
+        <div id="menu1">
+          <nav class="navbar navbar-expand-lg navbar-light border-0">
+            <img
+              src="./public/img/icons/cubicol-logo-blanco.svg"
+              height="80"
+              class="mr-3 escudo"
+              id="logo"
+            />
+            <button
+              class="navbar-toggler d-lg-none"
+              type="button"
+              style="background-color: var(--color4)"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsibleNavId"
+              aria-controls="collapsibleNavId"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span
+                class="navbar-toggler-icon"
+                style="background-color: var(--color4)"
+              ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav mt-2 mt-lg-0 ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#one">ONE PAGE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#full">PAGINAS WEB</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Modal -->
+    <!-- <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <img src="./public/img/galeria/emergente.jpg" width="100%">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        let modal = new bootstrap.Modal(document.getElementById('myModal'), );
+        modal.show();
+    </script> -->
+
+    <!-- Baner dinamico -->
+    <div class="container-fluid px-0 d-none" id="slider">
+      <div
+        id="carouselBanner"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="titleContainer">
+              <div class="animate__animated animate__bounceInDown">
+                <h2 class="text-white text-uppercase">Niuwork</h2>
+                <h2 class="title">Plataforma de Trabajo</h2>
+                <div class="line"></div>
+                <h2 class="title2">
+                  Hay más de <span class="fw-bold"> 5.000 </span> postulantes
+                  disponibles
+                </h2>
+                <div class="mt-3 mt-md-5">
+                  <form>
+                    <div class="d-flex align-items-center mb-3 form-control">
+                      <span>
+                        <i class="fas fa-search fa-lg"></i>
+                      </span>
+                      <input
+                        type="text"
+                        class="ms-3"
+                        style="
+                          outline: none;
+                          border: 0;
+                          width: 100%;
+                          font-size: 20px;
+                          padding-top: 0px;
+                          padding-bottom: 5px;
+                        "
+                        placeholder="Puesto, empresa o palabra clave"
+                      />
+                    </div>
+                    <div class="d-flex align-items-center mb-3 form-control">
+                      <span>
+                        <i class="fas fa-map-marker-alt fa-lg"></i>
+                      </span>
+                      <select
+                        class="form-select form-control ms-3 pt-0"
+                        style="outline: none; border: 0; font-size: 20px"
+                      >
+                        <option selected>Todo el país</option>
+                        <option value="1">Lima</option>
+                        <option value="2">Arequipa</option>
+                      </select>
+                    </div>
+                    <br />
+                    <a
+                      class="d-flex justify-content-center boton4"
+                      href="#separadorProductos"
+                      >Buscar
+                    </a>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <img src="./public/img/web/banner niuwork.jpg" />
+          </div>
+        </div>
+        <!-- <button class="carousel-control-prev d-none d-lg-block" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+                    <i class="fas fa-chevron-left" style="font-size: 40px; color: var(--color2);"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button> -->
+        <!-- <button class="carousel-control-next d-none d-lg-block" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+                    <i class="fas fa-chevron-right" style="font-size: 40px; color: var(--color2)"></i>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
+      </div>
+    </div>
+
+    <section class="container-fluid pb-5 px-0">
+      <div class="row justify-content-between align-items-center mt-5 mt-lg-0">
+        <div class="col-lg-6" data-aos="fade-up" style="padding-left: 13%">
+          <h2 class="color1 text-uppercase">
+            POTENCIA TU NEGOCIO EN EL MUNDO DIGITAL
+          </h2>
+          <h4 class="text-white mt-5">
+            Desarrollamos <b> páginas web a la medida </b> de tus necesidades.
+          </h4>
+          <div class="mt-4">
+            <a
+              href="https://api.whatsapp.com/send?phone=51993652889&text=Estoy%20visitando%20tu%20c%C3%A1talogo%20web%20y%20deseo%20m%C3%A1s%20informaci%C3%B3n"
+              class="boton1 grow"
+              target="_blank"
+            >
+              Cotiza
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-4 mt-lg-0">
+          <img src="./public/img/web/page-baner.png" width="100%" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container demo1 my-5 pt-5" id="one">
+      <div class="row justify-content-center" data-aos="fade-up">
+        <div class="col-lg-8">
+          <h2 class="text-center">ESTRUCTURA - ONE PAGE</h2>
+          <p class="text-center text-white mt-4">
+            ¿Estás comenzando y necesitas una web para tu emprendimiento? Con
+            <b>un solo pago anual</b> puedes tener una pagina profesional que
+            coloque a tu negocio en el mercado.
+          </p>
+          <p class="text-center text-white mt-2">
+            Dale una mirada a algunos de <b>nuestros trabajos.</b>
+          </p>
+        </div>
+      </div>
+      <div class="row mt-5" data-aos="zoom-in">
+        <div class="col-lg-12">
+          <div class="d-flex align-items-start">
+            <div
+              class="nav flex-column nav-pills me-3"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link active"
+                id="v-pills-3-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-3"
+                type="button"
+                role="tab"
+                aria-selected="false"
+              >
+                EDUCACIÓN
+              </button>
+              <hr />
+              <button
+                class="nav-link"
+                id="v-pills-1-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-1"
+                type="button"
+                role="tab"
+                aria-selected="true"
+              >
+                CONSULTORÍA
+              </button>
+              <hr />
+              <button
+                class="nav-link"
+                id="v-pills-2-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-2"
+                type="button"
+                role="tab"
+                aria-selected="false"
+              >
+                BELLEZA
+              </button>
+              <hr />
+              <button
+                class="nav-link"
+                id="v-pills-4-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-4"
+                type="button"
+                role="tab"
+                aria-selected="false"
+              >
+                TIENDA
+              </button>
+              <hr />
+              <button
+                class="nav-link"
+                id="v-pills-5-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-5"
+                type="button"
+                role="tab"
+                aria-selected="false"
+              >
+                OTROS
+              </button>
+              <hr />
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade "
+                id="v-pills-1"
+                role="tabpanel"
+                aria-labelledby="v-pills-1-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.sapiensconsultingperu.com/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/ONE PAGE _sapiens_ CONSULTORIA.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">SOFTWARE</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://awaridigital.com/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/ONE PAGE_awaridigitalCONSULTORIA.png "
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">SOFTWARE</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.tgestionactiva.com/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/ONE PAGE_tgestionactiva_CONSULTORIA_ CONSTRUCCION E INGENIERIA.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">construcción</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-2"
+                role="tabpanel"
+                aria-labelledby="v-pills-2-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <!--  <div class="col-lg-6 col-md-6 my-3">
+                                        <a href="https://www.mariamoresalon.com/demo" class="item" target="_blank">
+                                            <img src="./public/img/web/ONE PAGE-mariamoresalon- SPA_BARBERIA.png"
+                                                width="100%" alt="">
+                                            <p class="desc">SPA</p>
+                                        </a>
+                                    </div> -->
+                    <div class="col-lg col-md-6 my-3">
+                      <a
+                        href="https://www.garciabarberia.com"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/ONE PAGE_garciabarberia_SPA_BARBERIA.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">BARBERIA</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show active"
+                id="v-pills-3"
+                role="tabpanel"
+                aria-labelledby="v-pills-3-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://demos.riaac.com/demo_kinder/"
+                        target="_blank"
+                        class="item"
+                      >
+                        <img
+                          src="./public/img/web/ONE PAGE- kinder_EDUCACION.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">KINDER</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://demos.riaac.com/educacion/"
+                        target="_blank"
+                        class="item"
+                      >
+                        <img
+                          src="./public/img/web/ONE PAGE_EDUCACION.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">COLEGIO</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://demos.riaac.com/instituto/"
+                        target="_blank"
+                        class="item"
+                      >
+                        <img
+                          src="./public/img/web/ONE PAGE-ACADEMIA- EDUCACION.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">ACADEMIA</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-4"
+                role="tabpanel"
+                aria-labelledby="v-pills-4-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg col-md-6">
+                      <a
+                        href="https://demos.riaac.com/tienda"
+                        target="_blank"
+                        class="item"
+                      >
+                        <img
+                          src="./public/img/web/ONE PAGE tienda.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">tienda</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-5"
+                role="tabpanel"
+                aria-labelledby="v-pills-5-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.dragonxpress.com.pe/"
+                        target="_blank"
+                        class="item"
+                      >
+                        <img
+                          src="./public/img/web/ONE  PAGE_dragonxpress_TURISMO.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">TURISMO</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.azarcos.com/"
+                        target="_blank"
+                        class="item"
+                      >
+                        <img
+                          src="./public/img/web/ONE PAGE.azarcos_CONSTRUCCION.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">CONSTRUCCIÓN</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://hvacmultiservicios.com/"
+                        target="_blank"
+                        class="item"
+                      >
+                        <img
+                          src="./public/img/web/ONE PAGE_hvacmultiservicios_MULTISERVICIOS.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">MULTISERVICIOS</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center my-5 pt-5">
+          <div class="col-lg-8">
+            <h2 class="text-center text-white">
+              TENEMOS UNA OPCIÓN PARA CADA RUBRO
+            </h2>
+            <p class="text-center text-white">
+              Elije el modelo que se adapte más a tu negocio.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <a
+            href="https://www.dragonxpress.com.pe/"
+            target="_blank"
+            class="swiper-slide"
+          >
+            <img
+              src="./public/img/web/SLIDER-ONE  PAGE_dragonxpress_TURISMO.png"
+              width="100%"
+              alt=""
+            />
+          </a>
+          <a
+            href="https://www.sapiensconsultingperu.com/"
+            target="_blank"
+            class="swiper-slide"
+          >
+            <img
+              src="./public/img/web/SLIDER-ONE PAGE _sapiens_ CONSULTORIA.png"
+              width="100%"
+              alt=""
+            />
+          </a>
+          <a
+            href="https://demos.riaac.com/demo_kinder/"
+            target="_blank"
+            class="swiper-slide"
+          >
+            <img
+              src="./public/img/web/SLIDER-ONE PAGE- kinder_EDUCACION.png"
+              width="100%"
+              alt=""
+            />
+          </a>
+          <a
+            href="https://awaridigital.com/"
+            target="_blank"
+            class="swiper-slide"
+          >
+            <img
+              src="./public/img/web/SLIDER-ONE PAGE_awaridigitalCONSULTORIA.png"
+              width="100%"
+              alt=""
+            />
+          </a>
+          <a
+            href="https://www.garciabarberia.com/"
+            target="_blank"
+            class="swiper-slide"
+          >
+            <img
+              src="./public/img/web/SLIDER-ONE PAGE_garciabarberia_SPA_BARBERIA.png"
+              width="100%"
+              alt=""
+            />
+          </a>
+          <a
+            href="https://hvacmultiservicios.com/"
+            target="_blank"
+            class="swiper-slide"
+          >
+            <img
+              src="./public/img/web/SLIDER-ONE PAGE_hvacmultiservicios_MULTISERVICIOS.png"
+              width="100%"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container caracteristicas my-5 py-5" data-aos="zoom-in">
+      <div class="row justify-content-around">
+        <div
+          class="col-lg-3 d-flex justify-content-lg-center align-items-center my-3"
+        >
+          <div class="item">
+            <i class="fas fa-grip-vertical"></i>
+          </div>
+          <h5 class="text-white ms-3">
+            Diseño Personalizado <br />
+            y Responsive
+          </h5>
+        </div>
+        <div
+          class="col-lg-3 d-flex justify-content-lg-center align-items-center my-3"
+        >
+          <div class="item">
+            <i class="fas fa-grip-vertical"></i>
+          </div>
+          <h5 class="text-white ms-3">Certificado SSL</h5>
+        </div>
+        <div
+          class="col-lg-3 d-flex justify-content-lg-center align-items-center my-3"
+        >
+          <div class="item">
+            <i class="fas fa-grip-vertical"></i>
+          </div>
+          <h5 class="text-white ms-3">
+            Soporte y <br />
+            Actualizaciones
+          </h5>
+        </div>
+        <div
+          class="col-lg-3 d-flex justify-content-lg-center align-items-center my-3"
+        >
+          <div class="item">
+            <i class="fas fa-grip-vertical"></i>
+          </div>
+          <h5 class="text-white ms-3">Administrable</h5>
+        </div>
+      </div>
+    </section>
+
+    <section class="container demo1 my-5" id="full">
+      <div class="row justify-content-center" data-aos="fade-up">
+        <div class="col-lg-8">
+          <h2 class="text-center my-5">PÁGINAS WEB</h2>
+          <p class="text-center my-5">
+            ¿Buscas una página con
+            <b>varias secciones y diseño totalmente personalizado</b> ? ¡Esta
+            opción es para ti! <br />
+            Una carta de presentación completa para tu empresa brindando
+            informes a tus clientes 24 / 7
+          </p>
+        </div>
+      </div>
+      <div class="row mt-5" data-aos="zoom-in">
+        <div class="col-lg-12">
+          <div class="d-flex align-items-start">
+            <div
+              class="nav flex-column nav-pills me-3"
+              id="v-pillsb-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link active"
+                id="v-pillsb-2-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pillsb-2"
+                type="button"
+                role="tab"
+                aria-selected="false"
+              >
+                EDUCACIÓN
+              </button>
+              <hr />
+              <button
+                class="nav-link"
+                id="v-pillsb-1-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pillsb-1"
+                type="button"
+                role="tab"
+                aria-selected="true"
+              >
+                CONSULTORÍA
+              </button>
+              <hr />
+              <button
+                class="nav-link"
+                id="v-pillsb-3-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pillsb-3"
+                type="button"
+                role="tab"
+                aria-selected="false"
+              >
+                TIENDA
+              </button>
+              <hr />
+              <button
+                class="nav-link"
+                id="v-pillsb-4-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pillsb-4"
+                type="button"
+                role="tab"
+                aria-selected="false"
+              >
+                OTROS
+              </button>
+              <hr />
+            </div>
+            <div class="tab-content" id="v-pillsb-tabContent">
+              <div
+                class="tab-pane fade"
+                id="v-pillsb-1"
+                role="tabpanel"
+                aria-labelledby="v-pillsb-1-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.consultorasisterra.com.pe/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/CONSULTORIA_consultorasisterra_Riesgo de Desastres, Seguridad.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">SALUD AMBIENTAL</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.sinergiaidd.pe/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/CONSULTORIA_sinergiaidd_SISTEMAS.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">SISTEMAS</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://demo.cloud-cubicol.com/grupoinnova/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/CONSULTORIA_grupoinnova_capacitacion empresarial.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">CAPACITACIÓN EMPRESARIAL</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://gembaconsultora.com/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/gembaconsultora.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">CAPACITACIÓN EMPRESARIAL</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade show active"
+                id="v-pillsb-2"
+                role="tabpanel"
+                aria-labelledby="v-pillsb-2-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://demos.riaac.com/pitagoras/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/EDUCACION_pitagoras_COLEGIO 1.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">COLEGIO 1</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://montessorihsperu.com/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/EDUCACION_montessorihsperu_HOMESCHOLING.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">COLEGIO 1</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.educare.edu.pe/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/educare_ COLEGIO 2_ EDUCACION.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">COLEGIO 2</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <a
+                          href="https://www.colegioflordeoro.edu.pe/"
+                          class="item"
+                          target="_blank"
+                        >
+                          <img
+                            src="./public/img/web/colegioflordeoro.png"
+                            width="100%"
+                            alt=""
+                          />
+                          <p class="desc">COLEGIO 2</p>
+                        </a>
+                      </div>
+                    <!--<div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.adahomeschool.edu.pe/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/EDUCACION_adahomeschool-HOMESCHOOL_3.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">COLEGIO 3</p>
+                      </a>
+                    </div>-->
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.abrahamvaldelomar.edu.pe/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/abrahamvaldelomar_ COLEGIO_ 4.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">COLEGIO 4</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.iepap.edu.pe/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/EDUCACION_ALAS PERUNANAS_ COLEGIO 4.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">COLEGIO 4</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.davycollege.edu.pe/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/EDUCACION_davycollege_COLEGIO 4.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">COLEGIO 4</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.smaschoolperu.edu.pe/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/smaschoolperu_ COLEGIO 4_ EDUCACION.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">COLEGIO 4</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                        <a
+                          href="https://www.colegiomariaauxiliadoraayacucho.edu.pe/"
+                          class="item"
+                          target="_blank"
+                        >
+                          <img
+                            src="./public/img/web/colegio_maria_auxiliadora.png"
+                            width="100%"
+                            alt=""
+                          />
+                          <p class="desc">COLEGIO 4</p>
+                        </a>
+                      </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://academia.marianosantos.edu.pe/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/EDUCACION_academia-marianosantos_academia prepolicial.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">ACADEMIA</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.sistec.edu.pe/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/EDUCACION_sistec_INSTITUTO.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">INSTITUTO</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.tecnologicomariategui.edu.pe/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/EDUCACION_tecnologicomariategui_INSTITUTO.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">INSTITUTO</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://clouduniversityperu.com/"
+                        class="item"
+                        target="_blank"
+                      >
+                        <img
+                          src="./public/img/web/clouduniversityperu.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">INSTITUTO</p>
+                      </a>
+                    </div>
+                    <!-- <div class="col-lg-4 col-md-6 my-3">
+                                        <a href="https://www.consorciointec.edu.pe/" class="item" target="_blank">
+                                            <img src="./public/img/web/EDUCACION_consorciointec_INSTITUTO.png"
+                                                width="100%" alt="">
+                                            <p class="desc">INSTITUTO</p>
+                                        </a>
+                                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pillsb-3"
+                role="tabpanel"
+                aria-labelledby="v-pillsb-3-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12 col-md-6 my-3">
+                      <a
+                        href="https://www.tupperwareperu.com.pe/"
+                        target="_blank"
+                        class="item"
+                      >
+                        <img
+                          src="./public/img/web/tupperwareperu_ VENTA POR CATALOGO.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">VENTA POR CATALOGO</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pillsb-4"
+                role="tabpanel"
+                aria-labelledby="v-pillsb-4-tab"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://cpsplima.pe/"
+                        target="_blank"
+                        class="item"
+                      >
+                        <img
+                          src="./public/img/web/colegio de profesionales cpsplima.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">COLEGIO DE PROFESIONALES</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://www.ekklesia-unamision.org/    "
+                        target="_blank"
+                        class="item"
+                      >
+                        <img
+                          src="./public/img/web/OTROS_ ekklesia_lglesia.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">IGLESIA</p>
+                      </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 my-3">
+                      <a
+                        href="https://demo.cloud-cubicol.com/aic/"
+                        target="_blank"
+                        class="item"
+                      >
+                        <img
+                          src="./public/img/web/OTROS_aic2_ONG.png"
+                          width="100%"
+                          alt=""
+                        />
+                        <p class="desc">ONG</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid py-5">
+      <div class="container">
+        <div class="row justify-content-center my-5" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h2 class="text-center text-white">
+              TENEMOS UNA OPCIÓN PARA CADA RUBRO
+            </h2>
+            <p class="text-center text-white">
+              <b>Diseño personalizado</b> que se adapta a tus necesidades .
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <a href="https://cpsplima.pe/" target="_blank" class="swiper-slide">
+            <img
+              src="./public/img/web/SLIDER2-colegio de profesionales cpsplima.png"
+              width="100%"
+              alt=""
+            />
+          </a>
+          <a
+            href="https://www.consultorasisterra.com.pe/"
+            target="_blank"
+            class="swiper-slide"
+          >
+            <img
+              src="./public/img/web/SLIDER2-CONSULTORIA_consultorasisterra_Riesgo de Desastres, Seguridad.png"
+              width="100%"
+              alt=""
+            />
+          </a>
+          <a
+            href="https://www.sinergiaidd.pe/"
+            target="_blank"
+            class="swiper-slide"
+          >
+            <img
+              src="./public/img/web/SLIDER2-CONSULTORIA_sinergiaidd_SISTEMAS.png"
+              width="100%"
+              alt=""
+            />
+          </a>
+          <!-- <a href="https://www.consorciointec.edu.pe/" target="_blank" class="swiper-slide">
+                    <img src="./public/img/web/SLIDER2-EDUCACION_consorciointec_INSTITUTO.png" width="100%" alt="">
+                </a> -->
+          <a
+            href="https://www.davycollege.edu.pe/"
+            target="_blank"
+            class="swiper-slide"
+          >
+            <img
+              src="./public/img/web/SLIDER2-EDUCACION_davycollege_COLEGIO 4.png"
+              width="100%"
+              alt=""
+            />
+          </a>
+          <a
+            href="https://demo.cloud-cubicol.com/pitagoras/"
+            target="_blank"
+            class="swiper-slide"
+          >
+            <img
+              src="./public/img/web/SLIDER2-EDUCACION_pitagoras_COLEGIO 1.png"
+              width="100%"
+              alt=""
+            />
+          </a>
+          <a
+            href="https://www.tupperwareperu.com.pe/"
+            target="_blank"
+            class="swiper-slide"
+          >
+            <img
+              src="./public/img/web/SLIDER2-tupperwareperu_ VENTA POR CATALOGO.png"
+              width="100%"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row pt-5 datos">
+            <div class="col-lg-3">
+              <h4 class="fw-bold mb-4 text-white">Contáctanos</h4>
+              <p class="fw-bold mb-1 text-white">
+                <i class="fas fa-phone-alt"></i>
+                <a
+                  href="https://api.whatsapp.com/send?phone=51993652889&text=Estoy%20visitando%20tu%20c%C3%A1talogo%20web%20y%20deseo%20m%C3%A1s%20informaci%C3%B3n"
+                  target="_blank"
+                  class="fw-bold mb-1 text-white"
+                >
+                  993 652 889
+                </a>
+              </p>
+              <p class="fw-bold mb-1 text-white">
+                <i class="fas fa-envelope"></i>
+                <a
+                  href="mailto:ksanchez@sensoft.com.pe"
+                  class="fw-bold mb-1 text-white"
+                >
+                  ksanchez@sensoft.com.pe</a
+                >
+              </p>
+            </div>
+            <div class="col-lg">
+              <h4 class="mb-1 text-white">
+                Cubicol 2023 © todos los derechos reservados. <br />
+                Desarrollado por SENSOFT SOLUTIONS.
+              </h4>
+              <a
+                href="https://www.cubicol.pe"
+                target="_blank"
+                class="fw-bold mb-1 color1"
+              >
+                Conoce más</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="topcontrol">
+        <a
+          href="https://api.whatsapp.com/send?phone=51993652889&text=Estoy%20visitando%20tu%20c%C3%A1talogo%20web%20y%20deseo%20m%C3%A1s%20informaci%C3%B3n"
+          target="_blank"
+        >
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+      <div class="topcontrol2">
+        <a href="#">
+          <i class="fas fa-arrow-alt-circle-up"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      var height = document.getElementById("header").clientHeight;
+      document.getElementById("header-top").style.height = height + "px";
+
+      // setTimeout(() => {
+      //     let loader = document.getElementById('preloader');
+      //     loader.style.opacity = '0';
+      //     setTimeout(() => {
+      //         loader.style.display = 'none';
+      //     }, 500);
+      // }, 2100);
+    </script>
+    <script src="./public/js/aviso-cookies.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 100,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            // spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            // spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 100,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

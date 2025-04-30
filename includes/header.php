@@ -81,7 +81,7 @@ switch ($pagina) {
 
         .nav-link {
 
-            color: var(--color1)!important;
+            color: var(--color1) !important;
         }
     }
 
@@ -156,6 +156,7 @@ switch ($pagina) {
                         Niveles <i class="fas fa-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="./prekinder.php">Pre-Kinder</a></li>
                         <li><a class="dropdown-item" href="./inicial.php">Inicial</a></li>
                         <li><a class="dropdown-item" href="./primaria.php">Primaria</a></li>
                         <li><a class="dropdown-item" href="./secundaria.php">Secundaria</a></li>

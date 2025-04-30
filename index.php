@@ -853,7 +853,7 @@
                     llamado aprendizaje mixto , desarrollo de talleres artísticos,
                     deportivos, culturales, de emprendimiento y de investigación científica. </p>
                 <p style="line-height: 2; text-align: justify;">
-                    El sistema para utilizar es ek híbrido, es decir clases presenciales, pero sin dejar de lado el sistema online.
+                    El sistema para utilizar es el híbrido, es decir clases presenciales, pero sin dejar de lado el sistema online.
                 </p>
                 <p style="line-height: 2; text-align: justify;">Por eso nuestro compromiso con cada uno de ustedes es que
                     encuentren un ambiente agradable y de mucho afecto entre
@@ -866,7 +866,7 @@
                 </div> -->
             </div>
             <div class="col-lg-6 my-auto">
-                <center><img id="imageborder" src="./public/img/web/circulo_nsr.png" class="img-fluid" width="60%" alt=""></center>
+                <center><img id="imageborder" src="./public/img/web/imagen_inicio.png" class="img-fluid" width="80%" alt=""></center>
             </div>
         </div>
     </section>
